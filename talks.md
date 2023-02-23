@@ -15,6 +15,8 @@ published: true
 
 # Keynotes
 
+<br/>
+
 {% for presentation in site.data.peer2023.presentations %}
 {% assign presentationid = presentation[0] %}
 {% assign presentationinfo = presentation[1] %}
@@ -37,6 +39,8 @@ published: true
 {% endfor %}
 
 # Talks
+
+<br/>
 
 {% for presentation in site.data.peer2023.presentations %}
 {% assign presentationid = presentation[0] %}
