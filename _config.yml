@@ -5,7 +5,7 @@ url                          : "http://peer-workshop.github.io" # the base hostn
 # url                          : 127.0.0.1
 
 blog:
-  title                      : PEER
+  title                      : PEER Workshop
   description                : Workshop on Processing and Evaluating Event Representations
 
 # Layout configuration
