@@ -23,12 +23,15 @@ published: true
 
 {% if presenterinfo.role == "keynote" %}
 
-<b>{{ presentationinfo.title }}</b>
-{{ presenterinfo.name }}
-<i>{{ presenterinfo.department }}</i>
-<i>{{ presenterinfo.university }}</i>
+<center><b>{{ presentationinfo.title }}</b></center>
+<center>{{ presenterinfo.name }}</center>
+<center><i>{{ presenterinfo.department }}</i></center>
+<center><i>{{ presenterinfo.university }}</i></center>
+
+{% if presentationinfo.abstract %}
 <br/>
 {{ presentationinfo.abstract }}
+{% endif %}
 <br/>
 
 {% endif %}
