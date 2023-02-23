@@ -68,7 +68,7 @@ If you are coming into Rochester from out of town and need a parking pass, pleas
 
 <tr>
     <td>{{ event.time }}</td>
-    <td>{{ presentationinfo.title }}</td>
+    <td><a href="{{ '/talks' | relative_url }}#{{ event.presentation }}">{{ presentationinfo.title }}</a></td>
     <td><a href="{{ personinfo.website }}">{{ personinfo.name }}</a></td>
 </tr>
 {% endif %}
