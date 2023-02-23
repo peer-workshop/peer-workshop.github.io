@@ -26,7 +26,7 @@ published: true
 {% if presenterinfo.role == "keynote" %}
 
 
-<center><b>{{ presentationinfo.title }}</b><a name="{{ presentationid }}"></a></center>
+<center><a name="{{ presentationid }}"></a><b>{{ presentationinfo.title }}</b></center>
 <center><a href="{{ presenterinfo.website }}">{{ presenterinfo.name }}</a></center>
 <center><i>{{ presenterinfo.department }}</i></center>
 <center><i>{{ presenterinfo.university }}</i></center>
@@ -51,7 +51,7 @@ published: true
 
 {% if presenterinfo.role == "talk" %}
 
-<center><b>{{ presentationinfo.title }}</b></center>
+<center><a name="{{ presentationid }}"></a><b>{{ presentationinfo.title }}</b></center>
 <center><a href="{{ presenterinfo.website }}">{{ presenterinfo.name }}</a></center>
 <center><i>{{ presenterinfo.department }}</i></center>
 <center><i>{{ presenterinfo.university }}</i></center>
