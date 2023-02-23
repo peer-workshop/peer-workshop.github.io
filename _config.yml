@@ -9,7 +9,7 @@ blog:
   description                : Workshop on Processing and Evaluating Event Representations
 
 # Layout configuration
-  logo_path                  : "assets/img/peer-log.png" # path to logo file
+  logo_path                  : "assets/img/peer-logo.png" # path to logo file
   search_path                : # needed for searchbox in archive page
   hero_layout                : false # turn on hero layout for blog and posts
   hero_placeholder           : "assets/img/generic_hero.jpg" # placeholder for hero image
@@ -33,8 +33,8 @@ author:
   #stackoverflow             : stackoverflow-user-name
   #disqus                    :  # your disqus site name
   #google_analytics          : 'UA-113465669-1'
-  photo                     : "assets/img/peer-log.png"
-  photo2x                   : "assets/img/peer-log.png"
+  photo                     : "assets/img/peer-logo.png"
+  photo2x                   : "assets/img/peer-logo.png"
 
 
 
