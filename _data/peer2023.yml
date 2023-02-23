@@ -118,7 +118,7 @@ presentations:
     type: inperson
     presenter: fyin
     title: Linguistic compression patterns in expository text summarization
-    abstract:
+    abstract: In this talk, we will examine summarization systems (computational and human) to try to understand what is being compressed by these systems and how their feature compression influences qualitative measures of summary quality.
 
 schedule:
 - time: 09:00-09:30
