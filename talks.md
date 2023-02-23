@@ -23,14 +23,13 @@ published: true
 
 {% if presenterinfo.role == "keynote" %}
 
-<center><b>{{ presentationinfo.title }}</b></center>
-<center>{{ presenterinfo.name }}</center>
-<center><i>{{ presenterinfo.department }}</i></center>
-<center><i>{{ presenterinfo.university }}</i></center>
+<b>{{ presentationinfo.title }}</b><br/>
+{{ presenterinfo.name }}<br/>
+<i>{{ presenterinfo.department }}</i><br/>
+<i>{{ presenterinfo.university }}</i><br/>
 
 {% if presentationinfo.abstract %}
-<br/>
-{{ presentationinfo.abstract }}
+{{ presentationinfo.abstract }}<br/>
 {% endif %}
 <br/>
 
@@ -47,14 +46,13 @@ published: true
 
 {% if presenterinfo.role == "talk" %}
 
-<center><b>{{ presentationinfo.title }}</b></center>
-<center>{{ presenterinfo.name }}</center>
-<center><i>{{ presenterinfo.department }}</i></center>
-<center><i>{{ presenterinfo.university }}</i></center>
+<b>{{ presentationinfo.title }}</b><br/>
+{{ presenterinfo.name }}<br/>
+<i>{{ presenterinfo.department }}</i><br/>
+<i>{{ presenterinfo.university }}</i><br/>
 
 {% if presentationinfo.abstract %}
-<br/>
-{{ presentationinfo.abstract }}
+{{ presentationinfo.abstract }}<br/>
 {% endif %}
 <br/>
 {% endif %}
