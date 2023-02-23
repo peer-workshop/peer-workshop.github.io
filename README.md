@@ -1,21 +1,36 @@
-# FACTS.lab website
+# PEER Workshop website
 
-This repository houses the [FACTS.lab website](http://factslab.io). Its design is based on the jekyll template [dactl](https://github.com/melangue/dactl), which is a fork of [daktilo](https://github.com/kronik3r/daktilo).
+This repository houses the [website for the PEER Workshop](http://peer-workshop.github.io). Its design is based on the jekyll template [dactl](https://github.com/melangue/dactl), which is a fork of [daktilo](https://github.com/kronik3r/daktilo).
 
-## Adding a lab member
+## Editing metadata
 
-To add yourself to the website, you will need to make a pull request that does two things:
+Metadata about people, talks, and the workshop schedule rendered on the website is stored in the [`_data/peer2023.yml`](https://github.com/peer-workshop/peer-workshop.github.io/blob/main/_data/peer2023.yml) file.
 
-1. Adds your information to the [`_data/people.yml`](https://github.com/FACTSlab/factslab.github.io/blob/master/_data/people.yml) file. An example can be found below:
+### Editing participant metadata
+
+To edit information about a participant, you should edit the relevant entry in the [`people`](https://github.com/peer-workshop/peer-workshop.github.io/blob/main/_data/peer2023.yml#L1) section of the [`_data/peer2023.yml`](https://github.com/peer-workshop/peer-workshop.github.io/blob/main/_data/peer2023.yml) file. An example entry can be found below:
 
 ```yaml
-name: Siddharth Vashishtha
-role: Graduate Researcher
-department: Computer Science
-university: University of Rochester
-website: https://sidsvash26.github.io/
-description: Sid is a fourth-year Computer Science PhD Student advised by Aaron White. His research work focuses on extracting event semantics from natural language text. His latest projects involve working on <a href="https://aclanthology.org/2020.findings-emnlp.363/">temporal reasoning in natural language inference systems</a> and <a href="https://aclanthology.org/P19-1280/">temporal relation extraction</a>. 
-image: siddharth-vashishtha.jpg
+nvenhuizen:
+    name: Noortje Venhuizen
+    website: https://njvenhuizen.github.io/
+    university: Tilburg University
+    department: Department of Cognitive Science & AI
+    image: nvenhuizen.jpg
+    role: keynote
+    description: "Noortje's research investigates formal (symbolic/distributional/probabilistic) models of linguistic meaning and how they can be applied and evaluated, using cognitive modeling, behavioral experiments, and computational methods in natural language understanding."
 ```
 
-2. Adds a **square** image to [`assets/img/people/`](https://github.com/FACTSlab/factslab.github.io/tree/master/assets/img/people). You should make sure that the file name matches that found in the `image` field of the entry in `_data/people.yml`.
+Valid `role`s are `keynote`, `talk`, or `organizer`. Images are assumed to be stored in `assets/img/peer2023` (specified in the header of the markdown for the specific page).
+
+### Editing talk metadata
+
+To edit information about a talk, you should edit the [`presentations`](https://github.com/peer-workshop/peer-workshop.github.io/blob/main/_data/peer2023.yml#L81) section of the [`_data/peer2023.yml`](https://github.com/peer-workshop/peer-workshop.github.io/blob/main/_data/peer2023.yml) file. An example can be found below:
+
+```yaml
+nvenhuizen:
+    type: virtual
+    presenter: nvenhuizen
+    title: Expectation-based Semantics in Language Comprehension
+    abstract: The processing difficulty of each word we encounter in a sentence is affected by both our prior linguistic experience and our general knowledge about the world. Computational models of incremental language processing have, however, been limited in accounting for the influence of world knowledge. I present an incremental model of language comprehension that integrates linguistic experience and world knowledge at the level of utterance interpretation. Our model constructs--on a word-by-word basis--rich, distributed representations that capture utterance meaning in terms of propositional co-occurrence across formal model structures. These Distributional Formal Semantics representations are inherently compositional and probabilistic, capturing entailment as well as probabilistic inference. To quantify linguistic processing effort in the model, we adopt Surprisal Theory; in contrast with typical language model implementations of surprisal, our model instantiates surprisal as a comprehension-centric metric that reflects the likelihood of the unfolding utterance meaning as established after processing each word. I will present simulations that illustrate how the model captures processing effects from various semantic phenomena and how linguistic experience and world knowledge combine in determining online expectations. Finally, I will discuss implications of our approach for neurocognitive theories and models of language comprehension.
+```
