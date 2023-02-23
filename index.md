@@ -2,7 +2,7 @@
 layout: page
 title: Workshop on Processing and Evaluating Event Representations
 published: true
-images: assets/img/peer-workshop-2023/
+images: assets/img/peer2023/
 ---
 
 <div class="page" markdown="1">
