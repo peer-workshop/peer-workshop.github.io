@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Workshop on Processing and Evaluating Event Representations
+title: About
 published: true
 images: assets/img/peer2023/
 ---

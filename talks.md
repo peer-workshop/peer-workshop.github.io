@@ -1,5 +1,6 @@
 ---
 layout: page
-title: Abstracts
+title: Talks
 published: true
 ---
+
