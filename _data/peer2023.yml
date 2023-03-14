@@ -93,7 +93,7 @@ presentations:
     type: inperson
     presenter: wgantt
     title: Structured Prediction and Representation for Document-Level Information Extraction
-    abstract:
+    abstract: "Developing accurate and informative representations of events described in documents is a longstanding challenge in NLP. Templates are a classic answer to this challenge, and are especially popular in the field of information extraction. A template represents a complex event of a pre-defined type and is associated with a set of slots that characterize the roles participants may play in that event. This talk will present some recent models for the task of template filling — generating appropriate templates given a document — as well as some of the persistent difficulties posed by the task itself and its evaluation."
   svashishtha:
     type: inperson
     presenter: svashishtha
