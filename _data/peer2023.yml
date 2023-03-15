@@ -103,7 +103,7 @@ presentations:
     type: inperson
     presenter: bkane
     title: Flexible Dialogue Management for Virtual Conversational Agents using Semantically Rich Event Schemas
-    abstract:
+    abstract: "The burgeoning growth of large language models has brought renewed attention to the need for hybrid dialogue systems that are capable of delibrate conversation driven by goals and knowledge, yet also allowing for robust expectation-driven behavior. In this talk, I will present a dialogue management framework that uses dialogue schemas -- structured representations of prototypical dialogue events, expressed in a type-coherent logical form -- to flexibly guide conversation. I will discuss a couple applications of this dialogue framework in creating virtual avatars across multiple domains. Finally, I will discuss ongoing work on modelling intensional states relevant to dialogue using crowdsourced human judgments, as well as preliminary work on leveraging large language models for schema-based response generation."
   haparicio:
     type: inperson
     presenter: haparicio
