@@ -108,7 +108,7 @@ presentations:
     type: inperson
     presenter: haparicio
     title: Vagueness, Adaptation & Meaning Resilience
-    abstract:
+    abstract: "Most work on semantic adaptation has focused on comprehenders' ability to adapt to the production probabilities associated with specific speakers. Here we ask whether semantic features of predicates modulate adaptation. We investigate the relationship between vagueness and adaptation through the English vague quantifiers few and many. Results from two semantic adaptation studies show that 1) many is vaguer than few; 2) the vaguer quantifier many does not adapt, whereas few adapts both when directly primed with few, and when primed indirectly with its antonym many. We argue that there is an inverse relation between adaptation and the degree of vagueness displayed by the quantifier at baseline. The resistance of vaguer predicates to adapt suggests that highly vague meanings are more resilient to change than more precise ones."
   dbhattacharya:
     type: virtual
     presenter: dbhattacharya
