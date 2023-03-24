@@ -121,9 +121,12 @@ presentations:
     abstract: "In this talk, we will explore the behavior process of creating summaries for expository texts by native English speakers: (1) We examined how people apply different levels of linguistic compression to texts to highlight important events and entities with analyses of syntactic and semantic structures of the summaries; (2) We investigated whether such linguistic compressions are useful and effective for readers to understand the core events through a human study. We will also discuss whether the compression patterns can be learned by computational models with large language models."
 
 schedule:
-  - time: 09:00-09:30
+  - time: 09:00-09:25
     type: break
     title: Breakfast
+  - time: 09:25-09:30
+    type: break
+    title: Opening Comments
   - time: 09:30-10:30
     type: talk
     presentation: nvenhuizen
