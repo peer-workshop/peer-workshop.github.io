@@ -1,12 +1,12 @@
 people:
-  nvenhuizen:
-    name: Noortje Venhuizen
-    website: https://njvenhuizen.github.io/
-    university: Tilburg University
-    department: Department of Cognitive Science & AI
-    image: nvenhuizen.jpg
-    role: keynote
-    description: "Noortje's research investigates formal (symbolic/distributional/probabilistic) models of linguistic meaning and how they can be applied and evaluated, using cognitive modeling, behavioral experiments, and computational methods in natural language understanding."
+#   nvenhuizen:
+#     name: Noortje Venhuizen
+#     website: https://njvenhuizen.github.io/
+#     university: Tilburg University
+#     department: Department of Cognitive Science & AI
+#     image: nvenhuizen.jpg
+#     role: keynote
+#     description: "Noortje's research investigates formal (symbolic/distributional/probabilistic) models of linguistic meaning and how they can be applied and evaluated, using cognitive modeling, behavioral experiments, and computational methods in natural language understanding."
   lrissman:
     name: Lilia Rissman
     website: https://www.liliarissman.com/
@@ -79,11 +79,11 @@ locations:
     name: Zoom
 
 presentations:
-  nvenhuizen:
-    type: virtual
-    presenter: nvenhuizen
-    title: Expectation-based Semantics in Language Comprehension
-    abstract: "The processing difficulty of each word we encounter in a sentence is affected by both our prior linguistic experience and our general knowledge about the world. Computational models of incremental language processing have, however, been limited in accounting for the influence of world knowledge. I present an incremental model of language comprehension that integrates linguistic experience and world knowledge at the level of utterance interpretation. Our model constructs--on a word-by-word basis--rich, distributed representations that capture utterance meaning in terms of propositional co-occurrence across formal model structures. These Distributional Formal Semantics representations are inherently compositional and probabilistic, capturing entailment as well as probabilistic inference. To quantify linguistic processing effort in the model, we adopt Surprisal Theory; in contrast with typical language model implementations of surprisal, our model instantiates surprisal as a comprehension-centric metric that reflects the likelihood of the unfolding utterance meaning as established after processing each word. I will present simulations that illustrate how the model captures processing effects from various semantic phenomena and how linguistic experience and world knowledge combine in determining online expectations. Finally, I will discuss implications of our approach for neurocognitive theories and models of language comprehension."
+#   nvenhuizen:
+#     type: virtual
+#     presenter: nvenhuizen
+#     title: Expectation-based Semantics in Language Comprehension
+#     abstract: "The processing difficulty of each word we encounter in a sentence is affected by both our prior linguistic experience and our general knowledge about the world. Computational models of incremental language processing have, however, been limited in accounting for the influence of world knowledge. I present an incremental model of language comprehension that integrates linguistic experience and world knowledge at the level of utterance interpretation. Our model constructs--on a word-by-word basis--rich, distributed representations that capture utterance meaning in terms of propositional co-occurrence across formal model structures. These Distributional Formal Semantics representations are inherently compositional and probabilistic, capturing entailment as well as probabilistic inference. To quantify linguistic processing effort in the model, we adopt Surprisal Theory; in contrast with typical language model implementations of surprisal, our model instantiates surprisal as a comprehension-centric metric that reflects the likelihood of the unfolding utterance meaning as established after processing each word. I will present simulations that illustrate how the model captures processing effects from various semantic phenomena and how linguistic experience and world knowledge combine in determining online expectations. Finally, I will discuss implications of our approach for neurocognitive theories and models of language comprehension."
   lrissman:
     type: inperson
     presenter: lrissman
@@ -121,29 +121,26 @@ presentations:
     abstract: "In this talk, we will explore the behavior process of creating summaries for expository texts by native English speakers: (1) We examined how people apply different levels of linguistic compression to texts to highlight important events and entities with analyses of syntactic and semantic structures of the summaries; (2) We investigated whether such linguistic compressions are useful and effective for readers to understand the core events through a human study. We will also discuss whether the compression patterns can be learned by computational models with large language models."
 
 schedule:
-  - time: 09:00-09:25
+  - time: 09:00-09:50
     type: break
     title: Breakfast
-  - time: 09:25-09:30
+  - time: 09:50-10:00
     type: break
-    title: Opening Comments
-  - time: 09:30-10:30
-    type: talk
-    presentation: nvenhuizen
-    location: zoom
-  - time: 10:30-11:00
-    type: break
-    title: Coffee
-  - time: 11:00-11:30
+    title: Opening Remarks
+  - time: 10:00-10:45
     type: talk
     presentation: haparicio
-  - time: 11:30-12:00
+    location: zoom
+  - time: 10:45-11:15
+    type: break
+    title: Coffee
+  - time: 11:15-11:45
     type: talk
     presentation: wgantt
-  - time: 12:00-12:30
+  - time: 11:45-12:15
     type: talk
     presentation: bkane
-  - time: 12:30-14:00
+  - time: 12:15-14:00
     type: break
     title: Lunch
   - time: 14:00-15:00
