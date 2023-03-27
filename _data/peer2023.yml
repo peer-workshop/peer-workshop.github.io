@@ -7,6 +7,12 @@ people:
 #     image: nvenhuizen.jpg
 #     role: keynote
 #     description: "Noortje's research investigates formal (symbolic/distributional/probabilistic) models of linguistic meaning and how they can be applied and evaluated, using cognitive modeling, behavioral experiments, and computational methods in natural language understanding."
+  haparicio:
+    name: Helena Aparicio
+    website: https://lime-lab-cornell.github.io/
+    university: Cornell University
+    department: Department of Linguistics
+    role: keynote
   lrissman:
     name: Lilia Rissman
     website: https://www.liliarissman.com/
@@ -38,12 +44,6 @@ people:
     website: https://d-bhattacharya.github.io/
     university: Columbia University
     department: Department of Computer Science
-    role: talk
-  haparicio:
-    name: Helena Aparicio
-    website: https://lime-lab-cornell.github.io/
-    university: Cornell University
-    department: Department of Linguistics
     role: talk
   fyin:
     name: Fangcong Yin
@@ -130,7 +130,6 @@ schedule:
   - time: 10:00-10:45
     type: talk
     presentation: haparicio
-    location: zoom
   - time: 10:45-11:15
     type: break
     title: Coffee
