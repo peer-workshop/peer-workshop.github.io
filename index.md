@@ -49,6 +49,8 @@ If you are coming into Rochester from out of town and need a parking pass, pleas
 
 ## Schedule
 
+# TBD
+{% comment %}
 <table>
 <tr>
 <th>Time</th>
@@ -74,6 +76,7 @@ If you are coming into Rochester from out of town and need a parking pass, pleas
 {% endif %}
 {% endfor %}
 </table>
+{% endcomment%}
 
 ## Organizers
 
