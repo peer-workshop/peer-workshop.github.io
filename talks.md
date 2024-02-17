@@ -6,12 +6,7 @@ published: true
 
 <div class="page" markdown="1">
 
-<img
-    class="me"
-    alt="{{ author.name }}"
-    src="{{ site.author.photo | relative_url }}"
-    srcset="{{ site.author.photo2x | relative_url }} 2x"
-/>
+# PEER 2024
 
 # Keynotes
 
