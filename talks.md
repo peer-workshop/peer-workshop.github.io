@@ -17,11 +17,11 @@ published: true
 
 <br/>
 
-{% for presentation in site.data.peer2023.presentations %}
+{% for presentation in site.data.peer2024.presentations %}
 {% assign presentationid = presentation[0] %}
 {% assign presentationinfo = presentation[1] %}
 
-{% assign presenterinfo = site.data.peer2023.people[presentationinfo.presenter] %}
+{% assign presenterinfo = site.data.peer2024.people[presentationinfo.presenter] %}
 
 {% if presenterinfo.role == "keynote" %}
 
@@ -43,11 +43,13 @@ published: true
 
 <br/>
 
-{% for presentation in site.data.peer2023.presentations %}
+## TBD
+{% comment %}
+{% for presentation in site.data.peer2024.presentations %}
 {% assign presentationid = presentation[0] %}
 {% assign presentationinfo = presentation[1] %}
 
-{% assign presenterinfo = site.data.peer2023.people[presentationinfo.presenter] %}
+{% assign presenterinfo = site.data.peer2024.people[presentationinfo.presenter] %}
 
 {% if presenterinfo.role == "talk" %}
 
@@ -63,4 +65,5 @@ published: true
 {% endif %}
 {% endfor %}
 
+{% endcomment %}
 </div>
