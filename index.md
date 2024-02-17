@@ -35,17 +35,13 @@ The workshop is sponsored by the [Central New York Humanities Corridor](https://
 
 ## Location
 
-The workshop will be located on the [University of Rochester's River Campus](https://goo.gl/maps/Ghb8wfrDARG9a3Ki9). Talks will be held in the Gowen Room ([Wilson Commons](https://goo.gl/maps/PTRsbx2HyfSnUhB27) 213), and breaks will be held in the Rettner Atrium ([Rettner Hall](https://goo.gl/maps/LDBokBW2nXk1hb8c6) 100). Virtual talks will be broadcast via zoom to in-person participants in the Gowen Room. 
+The workshop will be located at [Cornell University's Herbert F Johnson Museum of Art](https://museum.cornell.edu/)([Directions](https://maps.app.goo.gl/ztrTsHKZvDcyvbQB6)). Virtual talks will be broadcast via zoom to in-person participants. 
 
 Participation via zoom is by invitation only. Requests for a virtual participation invitation can be made using the registration link below.  
 
 ## Registration
 
-There is no cost for participation in the workshop, but if you plan to attend, we ask that you register [here](https://docs.google.com/forms/d/e/1FAIpQLScde5i8BmCDhub5ONyOjT7KUNw0NrOPb66tNtGTyWEjGFN6Gw/viewform?usp=sf_link) by March 17. 
-
-## Parking
-
-If you are coming into Rochester from out of town and need a parking pass, please indicate this on the registration form. We cannot guarantee parking passes for late registrants, so if you need a pass, please make sure to register on time.
+There is no cost for participation in the workshop, but if you plan to attend, we ask that you register by March 1 (https://forms.gle/582nV71mjB6cc9u17). 
 
 ## Schedule
 
