@@ -1,0 +1,127 @@
+people:
+  nvenhuizen:
+    name: Noortje Venhuizen
+    website: https://njvenhuizen.github.io/
+    university: Tilburg University
+    department: Department of Cognitive Science & AI
+    image: nvenhuizen.jpg
+    role: keynote
+    description: "Noortje's research investigates formal (symbolic/distributional/probabilistic) models of linguistic meaning and how they can be applied and evaluated, using cognitive modeling, behavioral experiments, and computational methods in natural language understanding."
+  apapafragou:
+    name: Anna Papafragou
+    website: https://www.langcoglab.com/
+    university: University of Pennsylvania
+    department: Department of Linguistics
+    image: apapafragou.jpg
+    role: keynote
+    description: ""
+  wgantt:
+    name: William Gantt
+    website: https://wgantt.github.io/
+    university: University of Rochester
+    department: Department of Computer Science
+    role: talk
+  svashishtha:
+    name: Siddharth Vashishtha
+    website: https://sidsvash26.github.io/
+    university: University of Rochester
+    department: Department of Computer Science
+    role: talk
+  bkane:
+    name: Benjamin Kane
+    website: https://www.cs.rochester.edu/u/bkane2/
+    university: University of Rochester
+    department: Department of Computer Science
+    role: talk
+  dbhattacharya:
+    name: Debasmita Bhattacharya
+    website: https://d-bhattacharya.github.io/
+    university: Columbia University
+    department: Department of Computer Science
+    role: talk
+  fyin:
+    name: Fangcong Yin
+    website: https://fangcong-yin-2.github.io/
+    university: Cornell University
+    department: Department of Information Science
+    role: talk
+  awhite:
+    name: Aaron Steven White
+    website: http://aaronstevenwhite.io/
+    university: University of Rochester
+    department: Department of Linguistics
+    image: awhite.jpg
+    role: organizer
+    description: "Aaron is interested in how the human ability to convey information about possible past, present, and future configurations of things in the world is undergirded by systematic relationships between intricately structured linguistic expressions and the dizzying array of conceptual categories available to humans. His research investigates (a) which of these conceptual categories can be related to which sorts of linguistic expressions, (b) what those relationships look like, and (c) how they can be leveraged for building better natural language understanding (NLU) systems."
+  mvanschijndel:
+    name: Marten van Schijndel
+    website: https://vansky.github.io/
+    university: Cornell University
+    department: Department of Linguistics
+    image: mvanschijndel.png
+    role: organizer
+    description: "Marty is in interested in the incremental representations that humans use to process language, and in differences between how language is used and how it is processed. To explore these topics, he studies the relationships between computational language models and psycholinguistic data (e.g., reading times), and he studies neural network representations of language to understand what aspects of language can be learned from language statistics directly without having experiences in the real world (i.e. through ungrounded learning)."
+
+locations:
+  atrium:
+    name: Johnson Art Museum
+    building: Johnson Art Museum
+  room:
+    name: Johnson Art Museum
+    building: Johnson Art Museum
+  zoom:
+    name: Zoom
+
+presentations:
+  nvenhuizen:
+    type: virtual
+    presenter: nvenhuizen
+    title: TBD
+    abstract: "TBD"
+  apapafragou:
+    type: inperson
+    presenter: apapafragou
+    title: TBD
+    abstract: "TBD"
+#  wgantt:
+#    type: inperson
+#    presenter: wgantt
+#    title: Structured Prediction and Representation for Document-Level Information Extraction
+#    abstract: "Developing accurate and informative representations of events described in documents is a longstanding challenge in NLP. Templates are a classic answer to this challenge, and are especially popular in the field of information extraction. A template represents a complex event of a pre-defined type and is associated with a set of slots that characterize the roles participants may play in that event. This talk will present some recent models for the task of template filling — generating appropriate templates given a document — as well as some of the persistent difficulties posed by the task itself and its evaluation."
+schedule:
+  - time: 09:00-09:50
+    type: break
+    title: Breakfast
+  - time: 09:50-10:00
+    type: break
+    title: Opening Remarks
+  - time: 10:00-10:45
+    type: talk
+    presentation: nvenhuizen
+  - time: 10:45-11:15
+    type: break
+    title: Coffee
+  - time: 11:15-11:45
+    type: talk
+    presentation: TBD
+  - time: 11:45-12:15
+    type: talk
+    presentation: TBD
+  - time: 12:15-14:00
+    type: break
+    title: Lunch
+  - time: 14:00-15:00
+    type: talk
+    presentation: TBD
+  - time: 15:00-15:30
+    type: break
+    title: Coffee
+  - time: 15:30-16:00
+    type: talk
+    presentation: TBD
+  - time: 16:00-16:30
+    type: talk
+    presentation: TBD
+  - time: 16:30-17:00
+    type: talk
+    presentation: TBD
