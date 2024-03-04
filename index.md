@@ -43,7 +43,7 @@ Participation via zoom is by invitation only. Requests for a virtual participati
 
 ## Registration
 
-There is no cost for participation in the workshop, but if you plan to attend, we ask that you register [here](https://forms.gle/582nV71mjB6cc9u17) by March 1. 
+There is no cost for participation in the workshop, but if you plan to attend, we ask that you register [here](https://forms.gle/582nV71mjB6cc9u17) as soon as possible to help us plan the food.
 
 ## Schedule
 
