@@ -76,13 +76,13 @@ presentations:
   nvenhuizen:
     type: virtual
     presenter: nvenhuizen
-    title: TBD
-    abstract: "TBD"
+    title: Title TBD
+    abstract: "Abstract TBD"
   apapafragou:
     type: inperson
     presenter: apapafragou
-    title: TBD
-    abstract: "TBD"
+    title: Title TBD
+    abstract: "Abstract TBD"
 #  wgantt:
 #    type: inperson
 #    presenter: wgantt
