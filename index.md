@@ -48,8 +48,6 @@ There is no cost for participation in the workshop, but if you plan to attend, w
 
 ## Schedule
 
-# TBD
-{% comment %}
 <table>
 <tr>
 <th>Time</th>
@@ -75,7 +73,6 @@ There is no cost for participation in the workshop, but if you plan to attend, w
 {% endif %}
 {% endfor %}
 </table>
-{% endcomment%}
 
 ## Organizers
 

@@ -38,8 +38,6 @@ published: true
 
 <br/>
 
-## TBD
-{% comment %}
 {% for presentation in site.data.peer2024.presentations %}
 {% assign presentationid = presentation[0] %}
 {% assign presentationinfo = presentation[1] %}
@@ -60,5 +58,4 @@ published: true
 {% endif %}
 {% endfor %}
 
-{% endcomment %}
 </div>
