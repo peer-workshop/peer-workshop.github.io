@@ -17,7 +17,7 @@ people:
     description: ""
   klamp:
     name: Kaelyn Lamp
-    website: TBD
+    website: https://kaelyn-lamp.github.io/
     university: Cornell University
     department: Department of Linguistics
     role: talk
@@ -29,13 +29,13 @@ people:
     role: talk
   jstarr:
     name: John Starr
-    website: TBD
+    website: https://johnstarr-ling.github.io/
     university: Cornell University
     department: Department of Linguistics
     role: talk
   jmatthews:
     name: Jacob Matthews
-    website: TBD
+    website: http://jam963.github.io/
     university: Cornell University
     department: Department of Romance Studies
     role: talk
@@ -53,7 +53,7 @@ people:
     role: talk
   amartin:
     name: Alexander Martin
-    website: TBD
+    website: alexmartin1722.github.io/
     university: University of Rochester
     department: Department of Computer Science
     role: talk
