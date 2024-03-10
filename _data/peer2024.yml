@@ -134,8 +134,10 @@ schedule:
   - time: 08:30-09:30
     type: break
     title: Breakfast
+    location: Johnson
   - time: 09:30-9:45
     type: break
+    location: Johnson
     title: Opening Remarks
   - time: 9:45-10:45
     type: talk
@@ -143,6 +145,7 @@ schedule:
   - time: 10:45-11:00
     type: break
     title: Coffee
+    location: Johnson
   - time: 11:00-11:30
     type: talk
     presentation: acao
@@ -152,6 +155,7 @@ schedule:
   - time: 12:00-13:00
     type: break
     title: Lunch
+    location: Morrill 106
   - time: 13:00-13:30
     type: talk
     presentation: jgrove
@@ -164,6 +168,7 @@ schedule:
   - time: 14:30-15:00
     type: break
     title: Coffee
+    location: Johnson
   - time: 15:00-15:30
     type: talk
     presentation: amartin
@@ -173,6 +178,7 @@ schedule:
   - time: 16:00-16:15
     type: break
     title: Coffee/Break
+    location: Johnson
   - time: 16:15-17:15
     type: talk
     presentation: apapafragou
