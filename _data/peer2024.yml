@@ -95,31 +95,11 @@ presentations:
     presenter: apapafragou
     title: Events and objects in mind and language
     abstract: "Understanding how humans represent, recognize, remember and talk about events is important for several disciplines that focus on the human mind and brain. In this talk I bring together an interdisciplinary set of tools to address the nature of event representation. I present experimental evidence showing that abstract properties of event structure underlie both the conceptual and the linguistic encoding of dynamic events; furthermore, in several crucial respects, the representation of events resembles that of objects. I argue that notions of boundaries and structure underlie mental units in both the event and the object domain, and that such notions explain otherwise mysterious similarities in cross-domain correspondences. These findings have implications for both cognitive and linguistic event theories, as well as the relation between language and thought."
-  klamp:
-    type: inperson
-    presenter: klamp
-    title: Hate Speech Causality
-    abstract: "Limited work quantitatively analyzes how linguistic phenomena are used to manipulate the perception of causality and blame when expressing hate speech. Using annotated hate speech datasets, we conducted a corpus analysis of select causal constructions and strategies of indirect speech to see what syntactic choices were made by writers of hate speech when referencing minority (targeted) groups and majority groups. We found that hate speech tends to use causal constructions to minimize the causal responsibility of majority groups and indirect speech strategies such as word order and passivization to focus on the minority group’s involvement in events."
-  wgantt:
-    type: inperson
-    presenter: wgantt
-    title: Event-Keyed Summarization
-    abstract: "Traditional approaches to summarization in natural language processing focus on summarizing whole documents. As readers, however, we often seek information about a particular situation. This talk will discuss some recent work on a novel task we call event-keyed summarization, in which the aim is to generate summaries targeted to a specific situation described in a document, given the document and an event representation extracted from it. We describe a dataset for this task, a suite of computational experiments on that dataset, as well as the results of a user study, showing that event-keyed summarization represents an interesting new synthesis of both traditional summarization and event extraction."
   acao:
     type: inperson
     presenter: acao
     title: Generating event descriptions with syntactic and semantic constraints
     abstract: "This presentation examines manual, corpus-based, and LLM-based methods for generating large-scale samples of event descriptions while constraining for syntactic and semantic requirements. We assess the effectiveness of each approach by collecting annotator ratings of naturalness, typicality, and contrasting uses of different verb-senses. We find that while all methods reliably generate natural and typical items given a verb-sense, constraining items on pre-existing sense inventories such as Propbank’s generates a more varied representation of sense distributions, compared to when we use LLM-generated sense inventories. This work provides insights into each procedure’s suitability for linguists’ various requirements when generating linguistic stimuli, and enables the possibility of studying linguistic phenomena at the scale of the lexicon."
-  amartin:
-    type: inperson
-    presenter: amartin
-    title: FAMuS&#58; Frames Across Multiple Sources
-    abstract: "Understanding event descriptions is a central aspect of language processing, but current approaches focus overwhelmingly on single sentences or documents. Aggregating information about an event across documents can offer a much richer understanding. To this end, we present FAMuS, a new corpus of Wikipedia passages that report on some event, paired with underlying, genre-diverse (non-Wikipedia) source articles for the same event. Events and (cross-sentence) arguments in both report and source are annotated against FrameNet, providing broad coverage of different event types. We present results on two key event understanding tasks enabled by FAMuS: source validation -- determining whether a document is a valid source for a target report event -- and cross-document argument extraction -- full-document argument extraction for a target event from both its report and the correct source article. We release both FAMuS and our models to support further research."
-  jmatthews:
-    type: inperson
-    presenter: jmatthews
-    title: Enhancing Language Model Representations with Attributed Network Embeddings
-    abstract: "Networks like citation graphs are rich sources of metatextual information, which may not be easily learnable from unstructured text data alone. Citation and publication events in particular can give valuable metatextual insight into a document's social and temporal contexts. We will demonstrate a fast, simple, and interpretable method for generating embeddings from attributed networks. We then explore use cases for these attributed network embeddings on downstream tasks involving pretrained language models, such as authorship attribution and diachronic word embedding generation."
   jstarr:
     type: inperson
     presenter: jstarr
@@ -130,6 +110,27 @@ presentations:
     presenter: jgrove
     title: TBD
     abstract: TBD
+  klamp:
+    type: inperson
+    presenter: klamp
+    title: Hate Speech Causality
+    abstract: "Limited work quantitatively analyzes how linguistic phenomena are used to manipulate the perception of causality and blame when expressing hate speech. Using annotated hate speech datasets, we conducted a corpus analysis of select causal constructions and strategies of indirect speech to see what syntactic choices were made by writers of hate speech when referencing minority (targeted) groups and majority groups. We found that hate speech tends to use causal constructions to minimize the causal responsibility of majority groups and indirect speech strategies such as word order and passivization to focus on the minority group’s involvement in events."
+  wgantt:
+    type: inperson
+    presenter: wgantt
+    title: Event-Keyed Summarization
+    abstract: "Traditional approaches to summarization in natural language processing focus on summarizing whole documents. As readers, however, we often seek information about a particular situation. This talk will discuss some recent work on a novel task we call event-keyed summarization, in which the aim is to generate summaries targeted to a specific situation described in a document, given the document and an event representation extracted from it. We describe a dataset for this task, a suite of computational experiments on that dataset, as well as the results of a user study, showing that event-keyed summarization represents an interesting new synthesis of both traditional summarization and event extraction."
+  amartin:
+    type: inperson
+    presenter: amartin
+    title: FAMuS&#58; Frames Across Multiple Sources
+    abstract: "Understanding event descriptions is a central aspect of language processing, but current approaches focus overwhelmingly on single sentences or documents. Aggregating information about an event across documents can offer a much richer understanding. To this end, we present FAMuS, a new corpus of Wikipedia passages that report on some event, paired with underlying, genre-diverse (non-Wikipedia) source articles for the same event. Events and (cross-sentence) arguments in both report and source are annotated against FrameNet, providing broad coverage of different event types. We present results on two key event understanding tasks enabled by FAMuS: source validation -- determining whether a document is a valid source for a target report event -- and cross-document argument extraction -- full-document argument extraction for a target event from both its report and the correct source article. We release both FAMuS and our models to support further research."
+  jmatthews:
+    type: inperson
+    presenter: jmatthews
+    title: Enhancing Language Model Representations with Attributed Network Embeddings
+    abstract: "Networks like citation graphs are rich sources of metatextual information, which may not be easily learnable from unstructured text data alone. Citation and publication events in particular can give valuable metatextual insight into a document's social and temporal contexts. We will demonstrate a fast, simple, and interpretable method for generating embeddings from attributed networks. We then explore use cases for these attributed network embeddings on downstream tasks involving pretrained language models, such as authorship attribution and diachronic word embedding generation."
+  
 schedule:
   - time: 08:30-09:30
     type: break
