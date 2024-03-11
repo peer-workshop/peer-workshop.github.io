@@ -108,8 +108,10 @@ presentations:
   jgrove:
     type: inperson
     presenter: jgrove
-    title: TBD
-    abstract: TBD
+    title: Reasoning about propositional attitude reports in Bayesian dynamic semantics
+    abstract: "Recent work by Grove and White (2023) has shown how Bayesian models of experimentally collected inference-judgment data can be seamlessly derived from the compositional semantics of the expressions triggering inferences, allowing semantic theories and theories of experimental behavior to be rigorously formulated and quantitatively compared. In this talk, I show how Grove and White's approach can be stated in general terms as a Bayesian theory of dynamic semantics that crucially makes use of a state. In the end, the state of a discourse corresponds to the model parameters in a Bayesian model.
+
+As a case study, I show how the framework may be used to encode a sophisticated semantics of propositional attitude reports and the inferences derived from them, following recent work by Djärv (2019). I show how, in this case, a model formulated in a Bayesian dynamic semantics may be used to learn the distinct semantic profiles of doxastic and emotive factive predicates from experimental data."
   klamp:
     type: inperson
     presenter: klamp
