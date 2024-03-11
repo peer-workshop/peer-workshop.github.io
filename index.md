@@ -98,7 +98,7 @@ There is no cost for participation in the workshop, but if you plan to attend, w
 
 <center><img src="https://www.cnycorridor.net/docs/2/Logo_-_Full_Color.svg" href="https://www.cnycorridor.net/calendar/"></center>
 
-# Land Acknowledgment
+# Land Acknowledgement
 
 This land acknowledgement is a first step in explicitly recognizing sovereignty and the ongoing history of dispossession of Indigenous peoples.
 
