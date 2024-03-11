@@ -58,8 +58,8 @@ There is no cost for participation in the workshop, but if you plan to attend, w
 {% if event.type == "break" %}
 <tr>
     <td style="border-bottom: 1pt solid black;border-top: 1pt solid black">{{ event.time }}</td>
-    <td style="border-bottom: 1pt solid black;border-top: 1pt solid black">{{ event.title }}</td>
-    <td style="border-bottom: 1pt solid black;border-top: 1pt solid black">{{ event.location}}</td>
+    <td style="border-bottom: 1pt solid black;border-top: 1pt solid black">{{ event.title }} {{ event.location}}</td>
+    <td style="border-bottom: 1pt solid black;border-top: 1pt solid black"></td>
 </tr>
 {% else %}
 {% assign presentationinfo = site.data.peer2024.presentations[event.presentation] %}
