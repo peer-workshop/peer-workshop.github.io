@@ -113,7 +113,7 @@ presentations:
   klamp:
     type: inperson
     presenter: klamp
-    title: Hate Speech Causality
+    title: Causality in Hate Speech
     abstract: "Limited work quantitatively analyzes how linguistic phenomena are used to manipulate the perception of causality and blame when expressing hate speech. Using annotated hate speech datasets, we conducted a corpus analysis of select causal constructions and strategies of indirect speech to see what syntactic choices were made by writers of hate speech when referencing minority (targeted) groups and majority groups. We found that hate speech tends to use causal constructions to minimize the causal responsibility of majority groups and indirect speech strategies such as word order and passivization to focus on the minority group’s involvement in events."
   wgantt:
     type: inperson
