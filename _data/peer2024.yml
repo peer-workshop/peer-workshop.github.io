@@ -134,10 +134,10 @@ schedule:
   - time: 08:30-09:30
     type: break
     title: Breakfast
-    location: Johnson
+    location: <i>Johnson</i>
   - time: 09:30-9:45
     type: break
-    location: Johnson
+    location: <i>Johnson</i>
     title: Opening Remarks
   - time: 9:45-10:45
     type: talk
@@ -145,7 +145,7 @@ schedule:
   - time: 10:45-11:00
     type: break
     title: Coffee
-    location: Johnson
+    location: <i>Johnson</i>
   - time: 11:00-11:30
     type: talk
     presentation: acao
