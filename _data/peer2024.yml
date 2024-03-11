@@ -35,7 +35,7 @@ people:
     role: talk
   jmatthews:
     name: Jacob Matthews
-    website: http://jam963.github.io/
+    website: https://jam963.github.io/
     university: Cornell University
     department: Department of Romance Studies
     role: talk
@@ -53,13 +53,13 @@ people:
     role: talk
   amartin:
     name: Alexander Martin
-    website: alexmartin1722.github.io/
+    website: https://alexmartin1722.github.io/
     university: University of Rochester
     department: Department of Computer Science
     role: talk
   awhite:
     name: Aaron Steven White
-    website: http://aaronstevenwhite.io/
+    website: https://aaronstevenwhite.io/
     university: University of Rochester
     department: Department of Linguistics
     image: awhite.jpg
