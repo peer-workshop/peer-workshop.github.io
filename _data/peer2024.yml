@@ -145,7 +145,7 @@ schedule:
     presentation: nvenhuizen
   - time: 10:45-11:00
     type: break
-    title: Coffee
+    title: Coffee Break
     location: Johnson Museum
   - time: 11:00-11:30
     type: talk
@@ -168,7 +168,7 @@ schedule:
     presentation: wgantt
   - time: 14:30-15:00
     type: break
-    title: Coffee
+    title: Coffee Break
     location: Johnson Museum
   - time: 15:00-15:30
     type: talk
@@ -178,7 +178,7 @@ schedule:
     presentation: jmatthews
   - time: 16:00-16:15
     type: break
-    title: Coffee/Break
+    title: Coffee Break
     location: Johnson Museum
   - time: 16:15-17:15
     type: keynote
