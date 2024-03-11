@@ -93,8 +93,8 @@ presentations:
   apapafragou:
     type: inperson
     presenter: apapafragou
-    title: Title TBD
-    abstract: "Abstract TBD"
+    title: Events and objects in mind and language
+    abstract: "Understanding how humans represent, recognize, remember and talk about events is important for several disciplines that focus on the human mind and brain. In this talk I bring together an interdisciplinary set of tools to address the nature of event representation. I present experimental evidence showing that abstract properties of event structure underlie both the conceptual and the linguistic encoding of dynamic events; furthermore, in several crucial respects, the representation of events resembles that of objects. I argue that notions of boundaries and structure underlie mental units in both the event and the object domain, and that such notions explain otherwise mysterious similarities in cross-domain correspondences. These findings have implications for both cognitive and linguistic event theories, as well as the relation between language and thought."
   klamp:
     type: inperson
     presenter: klamp
