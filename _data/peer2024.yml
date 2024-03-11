@@ -86,7 +86,7 @@ locations:
 
 presentations:
   nvenhuizen:
-    type: keynote
+    type: virtual
     presenter: nvenhuizen
     title: Expectation-based Semantics in Language Comprehension
     abstract: "The processing difficulty of each word we encounter in a sentence is affected by both our prior linguistic experience and our general knowledge about the world. Computational models of language processing have, however, been limited in accounting for the influence of world knowledge. I present an incremental model of language comprehension that integrates linguistic experience and world knowledge at the level of utterance interpretation. On a word-by-word basis, our model constructs rich, distributed representations that capture utterance meaning in terms of propositional co-occurrence across observations in the world. These representations are inherently compositional and probabilistic, capturing entailment as well as probabilistic inference. To quantify linguistic processing effort in the model, we adopt Surprisal Theory; in contrast with typical language model implementations, our model instantiates surprisal as a comprehension-centric metric that reflects the likelihood of the unfolding utterance meaning as established after processing each word. I will present simulations that illustrate how linguistic experience and world knowledge combine in determining online expectations in the model and discuss the implications for neurocognitive theories and models of language comprehension. Finally, I will discuss directions for future research within the framework of Distributional Formal Semantics."
@@ -140,7 +140,7 @@ schedule:
     location: Johnson Museum
     title: Opening Remarks
   - time: 9:45-10:45
-    type: talk
+    type: keynote
     presentation: nvenhuizen
   - time: 10:45-11:00
     type: break

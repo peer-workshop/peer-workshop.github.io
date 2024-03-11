@@ -67,8 +67,8 @@ There is no cost for participation in the workshop, but if you plan to attend, w
 
 <tr>
     <td>{{ event.time }}</td>
-    {% if event.type == "keynote" %}
-    <td><b><a href="{{ '/talks' | relative_url }}#{{ event.presentation }}">{{ presentationinfo.title }}</a></b></td>
+    {% if personinfo.role == "keynote" %}
+    <td><b><a href="{{ '/talks' | relative_url }}#{{ event.presentation }}">Keynote: {{ presentationinfo.title }}</a></b></td>
     <td><b><a href="{{ personinfo.website }}">{{ personinfo.name }}</a></b></td>
     {% else %}
     <td><a href="{{ '/talks' | relative_url }}#{{ event.presentation }}">{{ presentationinfo.title }}</a></td>
