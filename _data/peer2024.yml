@@ -210,6 +210,10 @@ schedule:
     type: break
     title: Coffee Break
     location: Johnson Museum
-  - time: 16:00-17:15
+  - time: 15:40-16:40
     type: keynote
     presentation: apapafragou
+  - time: 16:40-17:00
+    type: break
+    location: Johnson Museum
+    title: Closing Remarks
