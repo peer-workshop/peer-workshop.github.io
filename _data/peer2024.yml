@@ -45,6 +45,18 @@ people:
     university: University of Rochester
     department: Department of Computer Science
     role: talk
+  bwang:
+    name: Barry Wang
+    website: https://barryw.xyz/
+    university: Cornell University
+    department: Department of Computer Science
+    role: talk
+  sshaar:
+    name: Shaden Shaar
+    website: https://sshaar.github.io/
+    university: Cornell University
+    department: Department of Computer Science
+    role: talk
   jgrove:
     name: Julian Grove
     website: https://juliangrove.github.io/
@@ -112,6 +124,11 @@ presentations:
     abstract: "Recent work by Grove and White (2023) has shown how Bayesian models of experimentally collected inference-judgment data can be seamlessly derived from the compositional semantics of the expressions triggering inferences, allowing semantic theories and theories of experimental behavior to be rigorously formulated and quantitatively compared. In this talk, I show how Grove and White's approach can be stated in general terms as a Bayesian theory of dynamic semantics that crucially makes use of a state. In the end, the state of a discourse corresponds to the model parameters in a Bayesian model.
 
 As a case study, I show how the framework may be used to encode a sophisticated semantics of propositional attitude reports and the inferences derived from them, following recent work by Djärv (2019). I show how, in this case, a model formulated in a Bayesian dynamic semantics may be used to learn the distinct semantic profiles of doxastic and emotive factive predicates from experimental data."
+  sshaar:
+    type: inperson
+    presenter: sshaar
+    title: The Role of Triggers for Document-level Event Extraction
+    abstract: "TBD"
   klamp:
     type: inperson
     presenter: klamp
@@ -127,6 +144,11 @@ As a case study, I show how the framework may be used to encode a sophisticated 
     presenter: amartin
     title: FAMuS&#58; Frames Across Multiple Sources
     abstract: "Understanding event descriptions is a central aspect of language processing, but current approaches focus overwhelmingly on single sentences or documents. Aggregating information about an event across documents can offer a much richer understanding. To this end, we present FAMuS, a new corpus of Wikipedia passages that report on some event, paired with underlying, genre-diverse (non-Wikipedia) source articles for the same event. Events and (cross-sentence) arguments in both report and source are annotated against FrameNet, providing broad coverage of different event types. We present results on two key event understanding tasks enabled by FAMuS: source validation -- determining whether a document is a valid source for a target report event -- and cross-document argument extraction -- full-document argument extraction for a target event from both its report and the correct source article. We release both FAMuS and our models to support further research."
+  bwang:
+    type: inperson
+    presenter: bwang
+    title: Probing Representations for Document-level Event Extraction
+    abstract: "The probing classifiers framework has been employed for interpreting deep neural network models for a variety of natural language processing (NLP) applications. Studies, however, have largely focused on sentencelevel NLP tasks. This work is the first to apply the probing paradigm to representations learned for document-level information extraction (IE). We designed eight embedding probes to analyze surface, semantic, and event-understanding capabilities relevant to document-level event extraction. We apply them to the representations acquired by learning models from three different LLM-based document-level IE approaches on a standard dataset. We found that trained encoders from these models yield embeddings that can modestly improve argument detections and labeling but only slightly enhance event-level tasks, albeit trade-offs in information helpful for coherence and event-type prediction. We further found that encoder models struggle with document length and cross-sentence discourse."
   jmatthews:
     type: inperson
     presenter: jmatthews
@@ -138,50 +160,56 @@ schedule:
     type: break
     title: Breakfast
     location: Johnson Museum
-  - time: 09:30-9:45
+  - time: 09:30-9:40
     type: break
     location: Johnson Museum
     title: Opening Remarks
-  - time: 9:45-10:45
+  - time: 9:40-10:40
     type: keynote
     presentation: nvenhuizen
-  - time: 10:45-11:00
+  - time: 10:40-11:00
     type: break
     title: Coffee Break
     location: Johnson Museum
-  - time: 11:00-11:30
+  - time: 11:00-11:20
     type: talk
     presentation: acao
-  - time: 11:30-12:00
+  - time: 11:20-11:40
     type: talk
     presentation: jstarr
+  - time: 11:40-12:00
+    type: talk
+    presentation: jgrove
   - time: 12:00-13:00
     type: break
     title: Lunch
     location: Morrill 106
-  - time: 13:00-13:30
+  - time: 13:00-13:20
     type: talk
-    presentation: jgrove
-  - time: 13:30-14:00
+    presentation: sshaar
+  - time: 13:20-13:40
     type: talk
     presentation: klamp
-  - time: 14:00-14:30
+  - time: 13:40-14:00
     type: talk
     presentation: wgantt
-  - time: 14:30-15:00
+  - time: 14:00-14:20
     type: break
     title: Coffee Break
     location: Johnson Museum
-  - time: 15:00-15:30
+  - time: 14:20-14:40
     type: talk
     presentation: amartin
-  - time: 15:30-16:00
+  - time: 14:40-15:00
+    type: talk
+    presentation: bwang
+  - time: 15:00-15:20
     type: talk
     presentation: jmatthews
-  - time: 16:00-16:15
+  - time: 15:20-15:40
     type: break
     title: Coffee Break
     location: Johnson Museum
-  - time: 16:15-17:15
+  - time: 16:00-17:15
     type: keynote
     presentation: apapafragou
