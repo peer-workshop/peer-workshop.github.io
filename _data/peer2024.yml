@@ -127,7 +127,7 @@ As a case study, I show how the framework may be used to encode a sophisticated 
   sshaar:
     type: inperson
     presenter: sshaar
-    title: Are _Triggers_ All You Need for Document-Level Event Extraction?
+    title: Are <i>Triggers</i> All You Need for Document-Level Event Extraction?
     abstract: "Majority of the work done for event extraction, has been focused on sentence-level; as sentence-level dataset creation is easier than that of document-level. In sentence-level event extraction and document-level argument extraction, many works have relied on the use of _Triggers_; with some claiming the necessity of having such annotation. In this paper, we investigate if it is necessary to have _Triggers_ when working on document-level event extraction. This question is important as the few available datasets don't have _Triggers_ and obtaining such annotation is expensive. We analyze the usefulness of learning _Triggers_ obtained from different annotation sources (human, LLM, keyword-based, and random), by comparing the performance of 5 different models on 2 datasets. We also release the human, LLM, and keyword annotations we collected and annotated for the datasets."
   klamp:
     type: inperson
