@@ -14,8 +14,7 @@ images: assets/img/peer2024/
     srcset="{{ site.author.photo2x | relative_url }} 2x"
 />
 
-# Register soon!
-[Registration link](https://forms.gle/582nV71mjB6cc9u17)
+# See you in 2025!
 
 The **Third Workshop on Processing and Evaluating Event Representations (PEER2024)** will be held on **March 29, 2024** at Cornell University. The workshop aims to bring together researchers working on computational models of incremental language understanding with researchers working on event semantics from both a computational and experimental perspective. Presentations will focus on a variety of questions in this domain: (a) what symbolic and continuous representations are necessary for capturing different aspects of linguistic meaning?; (b) how do we determine the psycholinguistic validity of such representations to better understand incremental processing in humans?; and (c) how might the psycholinguistically valid representations be deployed during incremental language processing? Special focus is placed on meaning representations that take the concept of an event as a core organizing principle.
 
@@ -44,7 +43,7 @@ Participation via zoom is by invitation only. Requests for a virtual participati
 
 ## Registration
 
-There is no cost for participation in the workshop, but if you plan to attend, we ask that you register [here](https://forms.gle/582nV71mjB6cc9u17) as soon as possible to help us plan the food.
+There is no cost for participation in the workshop, but if you plan to attend, we ask that you register as soon as possible to help us plan the food.
 
 ## Schedule
 
