@@ -26,8 +26,8 @@ layout: default
                 {% assign members = group.members | sort_natural: 'surname' %}
                 {% for member in members %}
                 {% assign full = member.name | append: ' ' | append: member.surname %}
-                {% if member.email %}
-                <li class="fw-light"><a href="mailto:{{ member.email }}">{{ full }}</a></li>
+                {% if member.website %}
+                <li class="fw-light"><a href="{{ member.website }}">{{ full }}</a></li>
                 {% else %}
                 <li class="fw-light">{{ full }}</li>
                 {% endif %}
