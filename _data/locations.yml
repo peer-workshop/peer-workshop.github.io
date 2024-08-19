@@ -1,0 +1,9 @@
+center: 43.128333, -77.628333
+zoom: 12
+
+markers:
+  - title: University of Rochester
+    text: The University of Rochester is a private research university in Rochester, New York, United States.
+    latlng: 43.128333, -77.628333
+
+areas: null

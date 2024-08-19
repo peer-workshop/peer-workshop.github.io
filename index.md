@@ -1,107 +1,16 @@
 ---
-layout: page
-title: About
-published: true
-images: assets/img/peer2024/
+layout: index
+description: The Workshop on Processing and Evaluating Event Representations
 ---
 
-<div class="page" markdown="1">
+The Workshop on Processing and Evaluating Event Representations (PEER) brings together researchers working on incremental language understanding with researchers working on event semantics. It aims to address a variety of questions at the intersection of these domains:
 
-<img
-    class="me"
-    alt="{{ author.name }}"
-    src="{{ site.author.photo | relative_url }}"
-    srcset="{{ site.author.photo2x | relative_url }} 2x"
-/>
+1. What symbolic and continuous representations are necessary for capturing different aspects of linguistic meaning?
+2. How do we determine the psycholinguistic validity of such representations to better understand incremental processing in humans?
+3. How might the psycholinguistically valid representations be deployed during incremental language processing? 
 
-# See you in 2025!
+Special focus is placed on meaning representations that take the concept of an event as a core organizing principle.
 
-The **Third Workshop on Processing and Evaluating Event Representations (PEER2024)** will be held on **March 29, 2024** at Cornell University. The workshop aims to bring together researchers working on computational models of incremental language understanding with researchers working on event semantics from both a computational and experimental perspective. Presentations will focus on a variety of questions in this domain: (a) what symbolic and continuous representations are necessary for capturing different aspects of linguistic meaning?; (b) how do we determine the psycholinguistic validity of such representations to better understand incremental processing in humans?; and (c) how might the psycholinguistically valid representations be deployed during incremental language processing? Special focus is placed on meaning representations that take the concept of an event as a core organizing principle.
+<hr class="my-4">
 
-The workshop is sponsored by the [Central New York Humanities Corridor](https://www.cnycorridor.net/). Its broader goals are to build collaborations among researchers in Western and Central New York and to provide a platform for giving feedback to student researchers.
-
-## Keynote Speakers
-
-{% for person in site.data.peer2024.people %}
-{% assign personinfo = person[1] %}
-{% if personinfo.role == "keynote" %}
-<center>
-<a href="{{ personinfo.website }}"><img class="people" alt="{{ personinfo.name }}" src="{{ page.images | relative_url }}{{ personinfo.image }}" srcset="{{ page.images | relative_url }}{{ personinfo.image }}" /></a>
-</center>  
-<center><b>{{ personinfo.name }}</b></center>
-<center><i>{{ personinfo.department }}</i></center>
-<center><i>{{ personinfo.university }}</i></center>
-<!-- {{ personinfo.description }} -->
-{% endif %}    
-{% endfor %}
-
-## Location
-
-The workshop will be located at [Cornell University's Herbert F Johnson Museum of Art](https://museum.cornell.edu/) ([Directions](https://maps.app.goo.gl/ztrTsHKZvDcyvbQB6)). Virtual talks will be broadcast via zoom to in-person participants. 
-
-Participation via zoom is by invitation only. Requests for a virtual participation invitation can be made using the registration link below.  
-
-## Registration
-
-There is no cost for participation in the workshop, but if you plan to attend, we ask that you register as soon as possible to help us plan the food.
-
-## Schedule
-
-<table>
-<tr>
-<th>Time</th>
-<th>Event</th>
-<th>Presenter</th>
-</tr>
-{% for event in site.data.peer2024.schedule %}
-{% if event.type == "break" %}
-<tr>
-    <td style="border-bottom: 1pt solid black;border-top: 1pt solid black">{{ event.time }}</td>
-    <td style="border-bottom: 1pt solid black;border-top: 1pt solid black">{{ event.title }} (<i>{{ event.location}}</i>)</td>
-    <td style="border-bottom: 1pt solid black;border-top: 1pt solid black"></td>
-</tr>
-{% else %}
-{% assign presentationinfo = site.data.peer2024.presentations[event.presentation] %}
-{% assign personinfo = site.data.peer2024.people[presentationinfo.presenter] %}
-
-<tr>
-    <td>{{ event.time }}</td>
-    {% if personinfo.role == "keynote" %}
-    <td><b><a href="{{ '/talks' | relative_url }}#{{ event.presentation }}">Keynote: {{ presentationinfo.title }}</a></b></td>
-    <td><b><a href="{{ personinfo.website }}">{{ personinfo.name }}</a></b></td>
-    {% else %}
-    <td><a href="{{ '/talks' | relative_url }}#{{ event.presentation }}">{{ presentationinfo.title }}</a></td>
-    <td><a href="{{ personinfo.website }}">{{ personinfo.name }}</a></td>
-    {% endif %}
-</tr>
-{% endif %}
-{% endfor %}
-</table>
-
-## Organizers
-
-{% for person in site.data.peer2024.people %}
-{% assign personinfo = person[1] %}
-{% if personinfo.role == "organizer" %}
-<center>
-<a href="{{ personinfo.website }}"><img class="people" alt="{{ personinfo.name }}" src="{{ page.images | relative_url }}{{ personinfo.image }}" srcset="{{ page.images | relative_url }}{{ personinfo.image }}" /></a>
-</center>  
-<center><b>{{ personinfo.name }}</b></center>
-<center><i>{{ personinfo.department }}</i></center>
-<center><i>{{ personinfo.university }}</i></center>
-<!-- {{ personinfo.description }} -->
-{% endif %}    
-{% endfor %}
-
-# Sponsors
-
-<center><img src="https://www.cnycorridor.net/docs/2/Logo_-_Full_Color.svg" href="https://www.cnycorridor.net/calendar/"></center>
-
-# Land Acknowledgement
-
-This land acknowledgement is a first step in explicitly recognizing sovereignty and the ongoing history of dispossession of Indigenous peoples.
-
-Since location is core to our identity, in name and in practice, the CNY Humanities Corridor acknowledges, with respect, that our 11-institution consortium spans the ancestral lands and waterways of the Haudenosaunee people. Corridor partnerships take place on lands of the nations of the sovereign Haudenosaunee Confederacy, founded at least 1,000 years ago at Onondaga Lake. Central New York remains home to the Haudenosaunee: we acknowledge the ongoing history of dispossession across the Confederacy, and are grateful to live, work, and share ideas on these lands.
-
-
-</div>
+The 4th Workshop on Processing and Evaluating Event Representations (PEER2025) will be held at the University of Rochester on March 28, 2025. You can find the call for abstracts as well as the programs for previous iterations of PEER at the links below.

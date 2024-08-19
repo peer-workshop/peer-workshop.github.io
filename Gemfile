@@ -1,10 +1,5 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.6"
-gem "rouge", "~> 1.0"
-
-group :jekyll_plugins do
-  gem "jekyll-feed"
-  gem "jekyll-paginate"
-  gem "jekyll-sitemap"
-end
+gem "jekyll", "~> 4.3", ">= 4.3.3"
+gem "jekyll-seo-tag", "~> 2.8"
+gem "jekyll-sitemap", "~> 1.4"

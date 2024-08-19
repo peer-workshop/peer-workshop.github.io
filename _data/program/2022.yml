@@ -1,0 +1,126 @@
+legend:
+  title: Legend
+  categories:
+    - name: Talk
+      color: red-6
+    - name: Break
+      color: teal-6
+    - name: Admin
+      color: gray-4
+
+people:
+  wgantt:
+    name: William Gantt
+    website: https://wgantt.github.io/
+    university: University of Rochester
+    department: Department of Computer Science
+    role: talk
+  jstarr:
+    name: John Starr
+    website: https://johnstarr-ling.github.io/
+    university: Cornell University
+    department: Department of Linguistics
+    role: talk
+  estengeleskin:
+    name: Elias Stengel-Eskin
+    website: https://esteng.github.io/
+    university: Johns Hopkins University
+    department: Department of Computer Science
+    role: talk
+  fdavis:
+    name: Forrest Davis
+    website: https://forrestdavis.github.io/
+    university: Cornell University
+    department: Department of Linguistics
+    role: talk
+  jdou:
+    name: Jin Dou
+    website:
+    university: University of Rochester
+    department: Department of Biomedical Engineering
+    role: talk
+  tdarnell:
+    name: Thomas Darnell
+    website: 
+    university: Cornell University
+    department: Department of Linguistics
+    role: talk
+  awhite:
+    name: Aaron Steven White
+    website: http://aaronstevenwhite.io/
+    university: University of Rochester
+    department: Department of Linguistics
+    image: awhite.jpg
+    role: organizer
+    description: "Aaron is interested in how the human ability to convey information about possible past, present, and future configurations of things in the world is undergirded by systematic relationships between intricately structured linguistic expressions and the dizzying array of conceptual categories available to humans. His research investigates (a) which of these conceptual categories can be related to which sorts of linguistic expressions, (b) what those relationships look like, and (c) how they can be leveraged for building better natural language understanding (NLU) systems."
+  mvanschijndel:
+    name: Marten van Schijndel
+    website: https://vansky.github.io/
+    university: Cornell University
+    department: Department of Linguistics
+    image: mvanschijndel.png
+    role: organizer
+    description: "Marty is in interested in the incremental representations that humans use to process language, and in differences between how language is used and how it is processed. To explore these topics, he studies the relationships between computational language models and psycholinguistic data (e.g., reading times), and he studies neural network representations of language to understand what aspects of language can be learned from language statistics directly without having experiences in the real world (i.e. through ungrounded learning)."
+
+locations: null
+
+presentations:
+  wgantt:
+    mode: inperson
+    presenter: wgantt
+    title: Decomposing and Recomposing Event Structure
+  jstarr:
+    mode: inperson
+    presenter: jstarr
+    title: "Subversive Verses Alter Alternatives: Mind Rhyme and its Implications on Covert Processing"
+  estengeleskin:
+    mode: inperson
+    presenter: estengeleskin
+    title: Universal Decompositional Syntactic and Semantic Parsing
+  fdavis:
+    mode: inperson
+    presenter: fdavis
+    title: Neural Language Models as Surface-Driven Linguistic Systems
+  jdou:
+    mode: inperson
+    presenter: jdou
+    title: Predicting EEG Using Semantically-Tuned Language Models
+  tdarnell:
+    mode: virtual
+    presenter: tdarnell
+    title: Protorole Influences on Reading Times
+
+schedule:
+  - time: 10:00-10:15
+    category: Break
+    title: Breakfast
+  - time: 10:15-10:45
+    category: Talk
+    presentation: wgantt
+  - time: 10:45-11:10
+    category: Talk
+    presentation: jstarr
+  - time: 11:10-12:10
+    category: Break
+    title: Coffee
+  - time: 12:15-12:45
+    category: Talk
+    presentation: estengeleskin
+  - time: 12:45-13:15
+    category: Talk
+    presentation: fdavis
+  - time: 13:15-15:15
+    category: Break
+    title: Lunch
+  - time: 15:15-15:45
+    category: Talk
+    presentation: jdou
+  - time: 15:45-16:15
+    category: Talk
+    presentation: tdarnell
+  - time: 16:15-18:00
+    category: Break
+    title: Coffee Discussion
+  - time: 18:00-20:00
+    category: Break
+    title: Dinner

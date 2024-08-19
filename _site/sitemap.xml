@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/program/2022/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/program/2023/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/program/2024/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/call-for-abstracts/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/contributors/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/local-information/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/program/</loc>
+</url>
+</urlset>

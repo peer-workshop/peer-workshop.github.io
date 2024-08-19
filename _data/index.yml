@@ -1,0 +1,14 @@
+buttons:
+  - text: PEER2025 (call for abstracts)
+    url: "call-for-abstracts/"
+    disabled: false
+  - text: PEER2024 (program)
+    url: "program/2024/"
+    disabled: false
+  - text: PEER2023 (program)
+    url: "program/2023/"
+    disabled: false
+  - text: PEER2022 (program)
+    url: "program/2022/"
+    disabled: false
+

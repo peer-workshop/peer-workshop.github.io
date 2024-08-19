@@ -1,0 +1,30 @@
+a:
+  color: blue-7         # links
+  hover: blue-9         # links when hovering
+body:
+  bg: gray-0            # background
+  color: gray-8         # body text
+btn-primary:
+  bg: blue-5            # primary button
+  color: gray-0         # primary button text
+  hover: blue-7         # primary button when hovering
+  disabled: blue-3      # disabled primary button
+btn-secondary:
+  bg: gray-4            # secondary button
+  color: gray-0         # secondary button text
+  hover: gray-6         # secondary button when hovering
+digit:
+  bg: gray-3            # background of digit on 404 page
+header:
+  bg: blue-8            # background of navigation bar
+index:
+  bg: gray-2            # background of index container
+navbar-brand:
+  color: orange-5         # website name in header
+  hover: orange-3         # website name in header when hovering
+nav-link:
+  color: white        # navigation links in header
+  hover: gray-3         # navigation links in header when hovering
+text-muted:
+  color: gray-6         # light text
+  hover: gray-9         # light text when hovering (if link)

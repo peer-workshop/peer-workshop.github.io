@@ -1,0 +1,33 @@
+legend:
+  title: Legend
+  categories:
+    - name: Keynote
+      color: blue-6
+    - name: Talk
+      color: red-6
+    - name: Break
+      color: teal-6
+    - name: Admin
+      color: gray-4
+
+people:
+  awhite:
+    name: Aaron Steven White
+    website: https://aaronstevenwhite.io/
+    university: University of Rochester
+    department: Department of Linguistics
+    image: awhite.jpg
+    role: organizer
+    description: "Aaron is interested in how the human ability to convey information about possible past, present, and future configurations of things in the world is undergirded by systematic relationships between intricately structured linguistic expressions and the dizzying array of conceptual categories available to humans. His research investigates (a) which of these conceptual categories can be related to which sorts of linguistic expressions, (b) what those relationships look like, and (c) how they can be leveraged for building better natural language understanding (NLU) systems."
+  mvanschijndel:
+    name: Marten van Schijndel
+    website: https://vansky.github.io/
+    university: Cornell University
+    department: Department of Linguistics
+    image: mvanschijndel.jpg
+    role: organizer
+    description: "Marty is in interested in the incremental representations that humans use to process language, and in differences between how language is used and how it is processed. To explore these topics, he studies the relationships between computational language models and psycholinguistic data (e.g., reading times), and he studies neural network representations of language to understand what aspects of language can be learned from language statistics directly without having experiences in the real world (i.e. through ungrounded learning)."
+
+locations: null
+presentations: null
+schedule: null
