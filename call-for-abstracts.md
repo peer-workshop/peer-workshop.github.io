@@ -11,7 +11,7 @@ The organizers of the 4th Workshop on Processing and Evaluating Event Representa
 2. How do we determine the psycholinguistic validity of such representations to better understand incremental processing in humans?
 3. How might the psycholinguistically valid representations be deployed during incremental language processing? 
 
-PEER2025 will be held solely in-person at the University of Rochester, and there will be no remote presentation or attendance option.
+PEER2025 will be held solely in-person at the University of Rochester on April 18, 2025, and there will be no remote presentation or attendance option.
 
 ## Submission details
 

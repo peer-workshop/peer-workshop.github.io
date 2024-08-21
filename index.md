@@ -13,4 +13,4 @@ Special focus is placed on meaning representations that take the concept of an e
 
 <hr class="my-4">
 
-The 4th Workshop on Processing and Evaluating Event Representations (PEER2025) will be held at the University of Rochester on March 28, 2025. You can find the call for abstracts as well as the programs for previous iterations of PEER at the links below.
+The 4th Workshop on Processing and Evaluating Event Representations (PEER2025) will be held at the University of Rochester on April 18, 2025. You can find the call for abstracts as well as the programs for previous iterations of PEER at the links below.
