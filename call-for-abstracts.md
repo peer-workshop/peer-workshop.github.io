@@ -5,7 +5,7 @@ description: The 4th Workshop on Processing and Evaluating Event Representations
 navorder: 1
 ---
 
-The organizers of the 4th Workshop on Processing and Evaluating Event Representations (PEER2025) invite submission of abstracts for 20-minute oral presentations (with an additional 10 minutes for questions) on any topic in incremental linguistic processing or event semantics. Preference will be given to abstracts that address topics at the intersection of these two domains and that speak to the following (or related) questions:
+The organizers of the 4th Workshop on Processing and Evaluating Event Representations (PEER2025) invite submission of abstracts for 15-minute oral presentations on any topic in incremental linguistic processing or event semantics. Preference will be given to abstracts that address topics at the intersection of these two domains and that speak to the following (or related) questions:
 
 1. What symbolic and continuous representations are necessary for capturing different aspects of linguistic meaning?
 2. How do we determine the psycholinguistic validity of such representations to better understand incremental processing in humans?
@@ -15,7 +15,7 @@ PEER2025 will be held solely in-person at the University of Rochester on April 1
 
 ## Submission details
 
-The deadline for abstract submission is **Friday, November 29, 2024**, 11:59 pm (UTC-12). Submissions should be made via the [PEER2025 OpenReview site](https://openreview.net/group?id=PEER/2025/Workshop). We expect to notify authors of their acceptance in mid-January 2025. Please note that you must have an OpenReview account to submit an abstract and that new OpenReview accounts can take some time to be approved. 
+The deadline for abstract submission is **Friday, November 29, 2024**, 11:59 pm (UTC-12). Submissions should be made via the [PEER2025 OpenReview site](https://openreview.net/group?id=PEER/2025/Workshop). We expect to notify authors of their acceptance in mid-February 2025. Please note that you must have an OpenReview account to submit an abstract and that new OpenReview accounts can take some time to be approved. 
 
 ## Requirements
 
