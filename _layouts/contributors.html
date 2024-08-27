@@ -23,13 +23,14 @@ layout: default
         {% endif %}
         <div {{ div }}>
             <ul class="list-unstyled">
-                {% assign members = group.members | sort_natural: 'surname' %}
+                {% assign members = site.data.program[page.program].people %}
                 {% for member in members %}
-                {% assign full = member.name | append: ' ' | append: member.surname %}
-                {% if member.website %}
-                <li class="fw-light"><a href="{{ member.website }}">{{ full }}</a></li>
+                {% if member[1].role == group.role %}
+                {% if member[1].website %}
+                <li class="fw-light"><a href="{{ member[1].website }}">{{ member[1].name }}</a></li>
                 {% else %}
-                <li class="fw-light">{{ full }}</li>
+                <li class="fw-light">{{ member[1].name }}</li>
+                {% endif %}
                 {% endif %}
                 {% endfor %}
             </ul>

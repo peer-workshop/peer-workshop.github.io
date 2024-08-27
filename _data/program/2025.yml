@@ -17,7 +17,7 @@ people:
     university: University of Rochester
     department: Department of Linguistics
     image: awhite.jpg
-    role: organizer
+    role: program_chair
     description: "Aaron is interested in how the human ability to convey information about possible past, present, and future configurations of things in the world is undergirded by systematic relationships between intricately structured linguistic expressions and the dizzying array of conceptual categories available to humans. His research investigates (a) which of these conceptual categories can be related to which sorts of linguistic expressions, (b) what those relationships look like, and (c) how they can be leveraged for building better natural language understanding (NLU) systems."
   mvanschijndel:
     name: Marten van Schijndel
@@ -25,8 +25,22 @@ people:
     university: Cornell University
     department: Department of Linguistics
     image: mvanschijndel.jpg
-    role: organizer
+    role: program_chair
     description: "Marty is in interested in the incremental representations that humans use to process language, and in differences between how language is used and how it is processed. To explore these topics, he studies the relationships between computational language models and psycholinguistic data (e.g., reading times), and he studies neural network representations of language to understand what aspects of language can be learned from language statistics directly without having experiences in the real world (i.e. through ungrounded learning)."
+  elau:
+    name: Ellen Lau
+    website: https://ellenlau.net/
+    university: University of Maryland, College Park
+    department: Department of Linguistics
+    image: null
+    role: keynote
+  awellwood:
+    name: Alexis Wellwood
+    website: https://www.semantics.land/
+    university: University of Southern California
+    department: School of Philosophy
+    image: null
+    role: keynote
 
 locations: null
 presentations: null

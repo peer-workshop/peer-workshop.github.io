@@ -1,15 +1,10 @@
 groups:
+  - title: Keynote Speakers
+    columns: false
+    role: keynote
   - title: Program Chairs
     columns: false
-    members:
-      - name: Aaron Steven
-        surname: White
-        email: aaron.white@rochester.edu
-        website: http://aaronstevenwhite.io/
-      - name: Marten
-        surname: van Schijndel
-        email: marten.vanschijndel@gmail.com
-        website: https://vansky.github.io/
+    role: program_chair
   # - title: Student Organizers
   # - title: Keynote Speakers
   # - title: Participants
