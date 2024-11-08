@@ -27,4 +27,4 @@ The abstract should use a font no smaller than 11pt for all text (including math
 
 ## Policies
 
-Authors may be involved in an unlimited number of abstracts. PEER does not accept papers that at the time of the conference have been published or have been accepted for publication. No dispreference is shown for presentations duplicated at another workshop or conference.
+Authors may be involved in an unlimited number of abstracts. PEER does not accept papers that at the time of the conference have been published or have been accepted for publication, but presentations may appear or have appeared at other workshops and/or conferences.
