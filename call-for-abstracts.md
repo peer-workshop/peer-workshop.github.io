@@ -15,7 +15,7 @@ PEER2025 will be held at the University of Rochester on April 18, 2025.
 
 ## Submission details
 
-The deadline for abstract submission is **Friday, November 15, 2024**, 11:59 pm (UTC-12). Submissions should be made via the [PEER2025 OpenReview site](https://openreview.net/group?id=PEER/2025/Workshop). We expect to notify authors of their acceptance in mid-February 2025. Please note that you must have an OpenReview account to submit an abstract and that new OpenReview accounts can take some time to be approved. 
+The deadline for abstract submission is <s><b>Friday, November 15, 2024</b></s> **Tuesday, November 26, 2024**, 11:59 pm (UTC-12). Submissions should be made via the [PEER2025 OpenReview site](https://openreview.net/group?id=PEER/2025/Workshop). We expect to notify authors of their acceptance in mid-February 2025. Please note that you must have an OpenReview account to submit an abstract and that new OpenReview accounts can take some time to be approved. 
 
 ## Requirements
 
