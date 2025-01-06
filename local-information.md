@@ -7,9 +7,7 @@ navorder: 3
 
 ## Venue
 
-All talks at PEER2025 will take place on the University of Rochester's [River Campus](https://www.google.com/maps/place/Wegmans+Hall/@43.1260797,-77.6326735,17z/). Details about the specific rooms in which talks and breaks are to be held will be posted closer to the start of the workshop.
-
-<!-- Talk sessions and on-site registration will take place on the first floor of [Wegmans Hall](https://www.rochester.edu/college/ecm/locations/wegmans.html) (Room 1400; <a href="https://maps.app.goo.gl/erMSWCyUjNKpYigv7">map</a>), and coffee breaks will take place on the first floor of [Goergen Hall](https://www.rochester.edu/college/ecm/locations/goergen.html) (Munnerlyn Atrium; <a href="https://maps.app.goo.gl/PvRXJY6xbWBgUyxR8">map</a>). On Wednesday evening (May 29), there will be a reception concurrent with the poster session, both in <a href="https://www.rochester.edu/college/rettnerhall/facilities/atrium.html">Rettner Hall</a> (Rettner Atrium; <a href="https://maps.app.goo.gl/koZ8dDNAnxJNfjjdA">map</a>). -->
+All talks at PEER2025 will take place on the University of Rochester's [River Campus](https://www.google.com/maps/place/Wegmans+Hall/@43.1260797,-77.6326735,17z/). Talk sessions, on-site registration, and coffee breaks will take place in the [Humanities Center](https://www.sas.rochester.edu/humanities/about/our-space.html) (Conference Room D), which can be found on the second floor of Rush Rhees Library (<a href="https://maps.app.goo.gl/sDeu3JsnRM6Jd1si8">map</a>).
 
 ## Travel
 
