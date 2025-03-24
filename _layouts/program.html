@@ -41,12 +41,36 @@ layout: default
                         <h5 class="fw-normal m-0 mb-2">{{ event.title }}</h5>
                         {% else %}
                         {% assign presentation = presentations[event.presentation] %}
-                        {% assign presenter = people[presentation.presenter] %}
-                        <h5 class="fw-normal m-0 mb-2">{{ presentation.title }}</h5>
-                        {% if presenter.website %}
-                        <p class="fw-light m-0"><a href="{{ presenter.website }}">{{ presenter.name }}</a> ({{ presenter.university }})</p>
+                        
+                        {% comment %} Handle both 2024 and 2025 formats {% endcomment %}
+                        {% if presentation.presenter %}
+                            {% comment %} 2024 format {% endcomment %}
+                            {% assign presenter = people[presentation.presenter] %}
+                            <h5 class="fw-normal m-0 mb-2">{{ presentation.title }}</h5>
+                            {% if presenter.website %}
+                            <p class="fw-light m-0"><a href="{{ presenter.website }}">{{ presenter.name }}</a> ({{ presenter.university }})</p>
+                            {% else %}
+                            <p class="fw-light m-0">{{ presenter.name }} ({{ presenter.university }})</p>
+                            {% endif %}
                         {% else %}
-                        <p class="fw-light m-0">{{ presenter.name }} ({{ presenter.university }})</p>
+                            {% comment %} 2025 format {% endcomment %}
+                            <h5 class="fw-normal m-0 mb-2">{{ presentation.title }}</h5>
+                            <p class="fw-light m-0">
+                            {% for author_id in presentation.authors %}
+                                {% assign author = people[author_id] %}
+                                {% if forloop.index > 1 %}, {% endif %}
+                                {% if author.website %}
+                                <a href="{{ author.website }}">{{ author.name }}</a>
+                                {% else %}
+                                {{ author.name }}
+                                {% endif %}
+                                {% if author.university %}
+                                    ({{ author.university }})
+                                {% elsif author.institutions.size > 0 %}
+                                    ({{ author.institutions | join: ", " }})
+                                {% endif %}
+                            {% endfor %}
+                            </p>
                         {% endif %}
                         {% endif %}
                         <p class="fw-light m-0">

@@ -2,7 +2,7 @@
 layout: call-for-abstracts
 title: Call for Abstracts
 description: The 4th Workshop on Processing and Evaluating Event Representations
-navorder: 1
+# navorder: 1
 ---
 
 The organizers of the 4th Workshop on Processing and Evaluating Event Representations (PEER2025) invite submission of abstracts for 15-minute oral presentations on any topic in incremental linguistic processing or event semantics. Preference will be given to abstracts that address topics at the intersection of these two domains and that speak to the following (or related) questions:

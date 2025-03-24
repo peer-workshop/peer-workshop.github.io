@@ -5,6 +5,9 @@ groups:
   - title: Program Chairs
     columns: false
     role: program_chair
+  - title: Presenters
+    columns: true
+    role: presenter
   # - title: Student Organizers
   # - title: Keynote Speakers
   # - title: Participants

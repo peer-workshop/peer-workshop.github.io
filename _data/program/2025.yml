@@ -14,34 +14,404 @@ people:
   awhite:
     name: Aaron Steven White
     website: https://aaronstevenwhite.io/
-    university: University of Rochester
-    department: Department of Linguistics
+    institutions:
+    - Rochester
     image: awhite.jpg
     role: program_chair
     description: "Aaron is interested in how the human ability to convey information about possible past, present, and future configurations of things in the world is undergirded by systematic relationships between intricately structured linguistic expressions and the dizzying array of conceptual categories available to humans. His research investigates (a) which of these conceptual categories can be related to which sorts of linguistic expressions, (b) what those relationships look like, and (c) how they can be leveraged for building better natural language understanding (NLU) systems."
   mvanschijndel:
     name: Marten van Schijndel
     website: https://vansky.github.io/
-    university: Cornell University
-    department: Department of Linguistics
+    institutions:
+    - Cornell
     image: mvanschijndel.jpg
     role: program_chair
     description: "Marty is in interested in the incremental representations that humans use to process language, and in differences between how language is used and how it is processed. To explore these topics, he studies the relationships between computational language models and psycholinguistic data (e.g., reading times), and he studies neural network representations of language to understand what aspects of language can be learned from language statistics directly without having experiences in the real world (i.e. through ungrounded learning)."
   elau:
     name: Ellen Lau
     website: https://ellenlau.net/
-    university: University of Maryland, College Park
-    department: Department of Linguistics
+    institutions:
+    - UMD
     image: null
     role: keynote
   awellwood:
     name: Alexis Wellwood
     website: https://www.semantics.land/
-    university: University of Southern California
-    department: School of Philosophy
+    institutions:
+    - USC
     image: null
     role: keynote
+  amartin:
+    institutions:
+    - JHU
+    name: Alexander Martin
+    website: https://alexmartin1722.github.io/
+    role: presenter
+  awilliams:
+    institutions:
+    - UMD
+    name: Alexander Williams
+    website: https://www.alexanderwilliams.org/
+    role: presenter
+  acao:
+    institutions:
+    - Rochester
+    name: Angela Cao
+    website: http://angelacao.com
+    role: presenter
+  awinship:
+    institutions:
+    - Cornell
+    name: Ashlyn Winship
+    website: https://ashlynwinship.github.io/
+    role: presenter
+  bvandurme:
+    institutions:
+    - Microsoft
+    - JHU
+    name: Benjamin Van Durme
+    website: http://www.cs.jhu.edu/~vandurme/
+    role: presenter
+  callen:
+    institutions:
+    - Rochester
+    name: Curisia Allen
+    website: null
+    role: presenter
+  ccarpenter:
+    institutions:
+    - JHU
+    name: Cameron Carpenter
+    website: null
+    role: presenter
+  cjin:
+    institutions:
+    - Rochester
+    name: Chihsheng Jin
+    website: https://chihshengj.github.io
+    role: presenter
+  csun:
+    institutions:
+    - Rochester
+    name: Claire Sun
+    website: null
+    role: presenter
+  cmcmahon:
+    institutions:
+    - CUNY
+    name: Clara McMahon
+    website: http://claramcmahon.com
+    role: presenter
+  criordan:
+    institutions:
+    - Rochester
+    name: Coraline Rinn Iordan
+    website: https://www2.bcs.rochester.edu/coraline-iordan
+    role: presenter
+  detter:
+    institutions:
+    - Etter Solutions
+    name: David Etter
+    website: null
+    role: presenter
+  dblilienthal:
+    institutions:
+    - SJSU
+    name: Derek Bryant Lilienthal
+    website: null
+    role: presenter
+  ekhlystova:
+    institutions:
+    - UCLA
+    name: Ekaterina A. Khlystova
+    website: null
+    role: presenter
+  efrancis:
+    institutions:
+    - Purdue
+    name: Elaine J. Francis
+    website: https://www.cla.purdue.edu/english/francislab/
+    role: presenter
+  epiazza:
+    institutions:
+    - Rochester
+    name: Elise A. Piazza
+    website: https://www.piazzalab.com
+    role: presenter
+  hannah_recknor:
+    institutions:
+    - JHU
+    name: Hannah Recknor
+    website: https://hltcoe.jhu.edu/
+    role: presenter
+  jeffrey_lidz:
+    institutions:
+    - UMD
+    name: Jeffrey Lidz
+    website: https://jefflidz.com
+    role: presenter
+  jguallarblasco:
+    institutions:
+    - JHU
+    name: Jimena Guallar-Blasco
+    website: https://jguallar-blasco.github.io/
+    role: presenter
+  jingyang_lin:
+    institutions:
+    - Rochester
+    name: Jingyang Lin
+    website: https://jylin.me
+    role: presenter
+  jingying_hu:
+    institutions:
+    - Purdue
+    name: Jingying Hu
+    website: null
+    role: presenter
+  john_r_starr:
+    institutions:
+    - Cornell
+    name: John R Starr
+    website: https://johnstarr-ling.github.io
+    role: presenter
+  kate_sanders:
+    institutions:
+    - JHU
+    name: Kate Sanders
+    website: null
+    role: presenter
+  laurel_perkins:
+    institutions:
+    - UCLA
+    name: Laurel Perkins
+    website: https://laurelperkins.com
+    role: presenter
+  lli:
+    institutions:
+    - Cornell
+    name: Lucas Y. Li
+    website: null
+    role: presenter
+  pavlo_kuchmiichuk:
+    institutions:
+    - Rochester
+    name: Pavlo Kuchmiichuk
+    website: null
+    role: presenter
+  qi_han:
+    institutions:
+    - Cornell
+    name: Qi Han
+    website: null
+    role: presenter
+  qingzhi_ruby_zeng:
+    institutions:
+    - Rochester
+    name: Qingzhi Ruby Zeng
+    website: null
+    role: presenter
+  reno_kriz:
+    institutions:
+    - JHU
+    name: Reno Kriz
+    website: null
+    role: presenter
+  richard_brutti:
+    institutions:
+    - Brandeis
+    name: Richard Brutti
+    website: null
+    role: presenter
+  shaohua_fang:
+    institutions:
+    - Purdue
+    name: Shaohua Fang
+    website: https://scholar.google.com/citations?user=dvYufxsAAAAJ&hl=en&oi=sra
+    role: presenter
+  valeriia_modina:
+    institutions:
+    - CUNY
+    name: Valeriia Modina
+    website: null
+    role: presenter
+  william_gantt:
+    institutions:
+    - JHU
+    name: William Gantt
+    website: https://wgantt.github.io/
+    role: presenter
+  yifan_wu:
+    institutions:
+    - Cornell
+    name: Yifan Wu
+    website: null
+    role: presenter
+  zander_lynch:
+    institutions:
+    - Cornell
+    name: Zander Lynch
+    website: null
+    role: presenter
+presentations:
+  elau:
+    mode: virtual
+    authors:
+    - elau
+    title: Keynote
+    abstract: null
+  awellwood:
+    mode: virtual
+    authors:
+    - awellwood
+    title: Keynote
+    abstract: null
+  brutti_processing:
+    authors:
+    - richard_brutti
+    title: Processing Events with Grunts
+  gantt_cross-document:
+    authors:
+    - william_gantt
+    - pavlo_kuchmiichuk
+    - amartin
+    - cjin
+    - acao
+    - csun
+    - callen
+    - awhite
+    title: Cross-Document Event-Keyed Summarization
+  han_probing:
+    authors:
+    - qi_han
+    - marten_van_schijndel
+    title: Probing Telicity in Transformer Models
+  hu_incremental:
+    authors:
+    - jingying_hu
+    - efrancis
+    - shaohua_fang
+    title: 'Incremental Processing of Temporal Cues in Event Representation:  A Web-based
+      Eye-Tracking Study'
+  khlystova_visual:
+    authors:
+    - ekhlystova
+    - awilliams
+    - jeffrey_lidz
+    - laurel_perkins
+    title: Visual Perception and 4-place Event Representations in Preschoolers and Infants
+  li_decomposing:
+    authors:
+    - lli
+    - marten_van_schijndel
+    title: Decomposing Semantic Decomposition Reveals Origin of Thematic Roles in LLMs
+  lynch_beyond:
+    authors:
+    - zander_lynch
+    - lli
+    - marten_van_schijndel
+    title: "Beyond Projecting: Modifiers' Influence on Proto-role Properties"
+  martin_understanding:
+    authors:
+    - amartin
+    - kate_sanders
+    - reno_kriz
+    - detter
+    - jguallarblasco
+    - hannah_recknor
+    - ccarpenter
+    - jingyang_lin
+    - william_gantt
+    - bvandurme
+    title: Understanding Events in Multimodal Data Through Question Answering
+  mcmahon_interactions:
+    authors:
+    - cmcmahon
+    - valeriia_modina
+    title: 'Interactions of Aspect and Negation in Russian and Polish: Evidence from
+      the Visual World Paradigm'
+  starr_focus:
+    authors:
+    - john_r_starr
+    - marten_van_schijndel
+    title: Focus reveals how people (variably) update event representations to novel
+      material
+  sun_event:
+    authors:
+    - csun
+    - criordan
+    title: Event Structure Shapes How Humans Summarize Naturalistic Narratives
+  winship_experimentally:
+    authors:
+    - awinship
+    - zander_lynch
+    - john_r_starr
+    - yifan_wu
+    - lli
+    - marten_van_schijndel
+    title: Experimentally extracting implicit instruments
+  zeng_multidimensionality:
+    authors:
+    - qingzhi_ruby_zeng
+    - dblilienthal
+    - criordan
+    - awhite
+    - epiazza
+    title: Multidimensionality and individual differences in the perception of creativity
+      in improvised narratives
 
-locations: null
-presentations: null
-schedule: null
+schedule:
+- time: 09:00-09:45
+  category: Break
+  title: Breakfast
+  location: Humanities Conference Room D
+- time: 09:45-10:00
+  category: Admin
+  location: Humanities Conference Room D
+  title: Opening Remarks
+- time: 10:00-11:00
+  category: Keynote
+  presentation: awellwood
+- time: 11:00-11:30
+  category: Break
+  title: Coffee Break
+  location: Humanities Conference Room D
+- time: 11:30-11:50
+  category: Talk
+  presentation: khlystova_visual
+- time: 11:50-12:10
+  category: Talk
+  presentation: winship_experimentally
+- time: 12:10-13:10
+  category: Break
+  title: Lunch
+  location: Morrill 106
+- time: 13:10-14:10
+  category: Keynote
+  presentation: elau
+- time: 14:10-14:40
+  category: Break
+  title: Coffee Break
+  location: Humanities Conference Room D
+- time: 14:40-15:10
+  category: Lightning Talks
+  title: Lightning Talks 1
+- time: 15:15-15:45
+  category: Lightning Talks
+  title: Lightning Talks 2
+- time: 15:45-16:15
+  category: Break
+  title: Coffee Break
+  location: Humanities Conference Room D
+- time: 16:15-16:35
+  category: Talk
+  presentation: sun_event
+- time: 16:35-16:55
+  category: Talk
+  presentation: martin_understanding
+- time: 16:55-17:15
+  category: Talk
+  presentation: gantt_cross-document
+- time: 17:15-17:30
+  category: Admin
+  location: Humanities Conference Room D
+  title: Closing Remarks

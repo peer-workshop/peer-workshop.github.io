@@ -1,6 +1,6 @@
 buttons:
-  - text: PEER2025 (call)
-    url: "call-for-abstracts/"
+  - text: PEER2025 (program)
+    url: "program/2025/"
     disabled: false
   - text: PEER2024 (program)
     url: "program/2024/"
