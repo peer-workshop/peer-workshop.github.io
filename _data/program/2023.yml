@@ -1,15 +1,3 @@
-legend:
-  title: Legend
-  categories:
-    - name: Keynote
-      color: blue-6
-    - name: Talk
-      color: red-6
-    - name: Break
-      color: teal-6
-    - name: Admin
-      color: gray-4
-
 people:
   haparicio:
     name: Helena Aparicio

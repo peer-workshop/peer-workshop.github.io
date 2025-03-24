@@ -11,7 +11,6 @@ layout: default
         {{ content }}
         {% if site.data.program[page.program] %}
         {% assign program = site.data.program[page.program] %}
-        {% assign categories = program.legend.categories %}
         {% assign people = program.people %}
         {% assign locations = program.locations %}
         {% assign presentations = program.presentations %}
@@ -21,7 +20,7 @@ layout: default
             <ul class="list-unstyled ms-3 ms-lg-0 lh-sm">
                 {% for event in schedule %}
                 {% if event.category %}
-                {% assign category = categories | find: 'name', event.category %}
+                {% assign category = page.categories | find: 'name', event.category %}
                 {% assign color = category.color %}
                 {% else %}
                 {% assign color = 'gray-4' %}
@@ -100,15 +99,11 @@ layout: default
                 </li>
                 {% endfor %}
             </ul>
-            {% assign legend = schedule | map: 'category' | compact | uniq %}
-            {% assign size = legend | size %}
+            {% assign size = categories | size %}
             {% if size > 0 %}
             <div class="mt-4 mb-2">
-                {% if program.legend.title %}
-                <h5 class="fw-normal">{{ program.legend.title }}</h5>
-                {% endif %}
-                {% for item in legend %}
-                {% assign border = categories | where: 'name', item | map: 'color' | first %}
+                {% for item in page.categories %}
+                {% assign border = page.categories | where: 'name', item | map: 'color' | first %}
                 {% assign bg = border | split: '-' | first | prepend: 'bg-' | append: '-1' %}
                 {% assign classes = border | prepend: ' border-' | prepend: bg %}
                 {% unless forloop.last %}
