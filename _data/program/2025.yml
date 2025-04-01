@@ -403,3 +403,7 @@ schedule:
   category: Admin
   location: Humanities Conference Room D
   title: Closing Remarks
+- time: 18:00-22:00
+  category: Break
+  location: Strangebird
+  title: Dinner at <a href="https://www.strangebirdbeer.com/">Strangebird</a> (authors and organizers only)
