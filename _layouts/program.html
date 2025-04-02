@@ -20,7 +20,7 @@ layout: default
             <ul class="list-unstyled ms-3 ms-lg-0 lh-sm">
                 {% for event in schedule %}
                 {% if event.category %}
-                {% assign category = page.categories | find: 'name', event.category %}
+                {% assign category = page.categories | where: 'name', event.category | first %}
                 {% assign color = category.color %}
                 {% else %}
                 {% assign color = 'gray-4' %}
@@ -28,12 +28,12 @@ layout: default
                 {% assign start = event.time | split: '-' | slice: 0 %}
                 {% assign end = event.time | split: '-' | slice: 1 %}
                 <li class="d-flex flex-column flex-lg-row">
-                    {% assign classes = color | prepend: 'border-start border-3 border-' %}
+                    {% capture classes %}border-start border-3 border-{{ color }}{% endcapture %}
                     <div class="row col-lg-2 pb-2 {{ classes }} border-lg-0">
                         <small class="fw-light text-muted">{{ start }}–{{ end }}</small>
                     </div>
                     {% unless forloop.last %}
-                    {% assign classes = classes | append: ' mb-4' %}
+                    {% capture classes %}{{ classes }} mb-4{% endcapture %}
                     {% endunless %}
                     <div class="row col-lg-10 {{ classes }}">
                         {% if event.title %}
@@ -45,7 +45,14 @@ layout: default
                         {% if presentation.presenter %}
                             {% comment %} 2024 format {% endcomment %}
                             {% assign presenter = people[presentation.presenter] %}
-                            <h5 class="fw-normal m-0 mb-2">{{ presentation.title }}</h5>
+                            <h5 class="fw-normal m-0 mb-2">
+                                {{ presentation.title }}
+                                {% if presentation.abstract %}
+                                <button type="button" class="btn btn-sm btn-outline-secondary ms-2" data-bs-toggle="modal" data-bs-target="#modal-{{ event.presentation }}">
+                                    Abstract
+                                </button>
+                                {% endif %}
+                            </h5>
                             {% if presenter.website %}
                             <p class="fw-light m-0"><a href="{{ presenter.website }}">{{ presenter.name }}</a> ({{ presenter.university }})</p>
                             {% else %}
@@ -53,7 +60,14 @@ layout: default
                             {% endif %}
                         {% else %}
                             {% comment %} 2025 format {% endcomment %}
-                            <h5 class="fw-normal m-0 mb-2">{{ presentation.title }}</h5>
+                            <h5 class="fw-normal m-0 mb-2">
+                                {{ presentation.title }}
+                                {% if presentation.abstract %}
+                                <button type="button" class="btn btn-sm btn-outline-secondary ms-2" data-bs-toggle="modal" data-bs-target="#modal-{{ event.presentation }}">
+                                    Abstract
+                                </button>
+                                {% endif %}
+                            </h5>
                             <p class="fw-light m-0">
                             {% for author_id in presentation.authors %}
                                 {% assign author = people[author_id] %}
@@ -116,6 +130,63 @@ layout: default
             </div>
             {% endif %}
         </div>
+        
+        <!-- Modal Definitions -->
+        {% for event in schedule %}
+            {% if event.presentation %}
+                {% assign presentation = presentations[event.presentation] %}
+                {% if presentation.abstract %}
+                <div class="modal fade" id="modal-{{ event.presentation }}" tabindex="-1" aria-labelledby="modal-{{ event.presentation }}-label" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header d-block">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5 class="modal-title" id="modal-{{ event.presentation }}-label">{{ presentation.title }}</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <p class="mb-0 text-muted">
+                                {% if presentation.presenter %}
+                                    {% comment %} 2024 format {% endcomment %}
+                                    {% assign presenter = people[presentation.presenter] %}
+                                    {% if presenter.website %}
+                                    <a href="{{ presenter.website }}">{{ presenter.name }}</a>
+                                    {% else %}
+                                    {{ presenter.name }}
+                                    {% endif %}
+                                    {% if presenter.university %}
+                                        ({{ presenter.university }})
+                                    {% elsif presenter.institutions.size > 0 %}
+                                        ({{ presenter.institutions | join: ", " }})
+                                    {% endif %}
+                                {% else %}
+                                    {% comment %} 2025 format {% endcomment %}
+                                    {% for author_id in presentation.authors %}
+                                        {% assign author = people[author_id] %}
+                                        {% if forloop.index > 1 %}, {% endif %}
+                                        {% if author.website %}
+                                        <a href="{{ author.website }}">{{ author.name }}</a>
+                                        {% else %}
+                                        {{ author.name }}
+                                        {% endif %}
+                                        {% if author.university %}
+                                            ({{ author.university }})
+                                        {% elsif author.institutions.size > 0 %}
+                                            ({{ author.institutions | join: ", " }})
+                                        {% endif %}
+                                    {% endfor %}
+                                {% endif %}
+                                </p>
+                            </div>
+                            <div class="modal-body">
+                                <!-- Abstract -->
+                                <p>{{ presentation.abstract }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
         {% endif %}
     </div>
 </main>
