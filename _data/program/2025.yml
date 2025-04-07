@@ -395,9 +395,18 @@ schedule:
 - time: 14:40-15:10
   category: Lightning Talks
   title: Lightning Talks 1
+  presentations:
+  - mcmahon_interactions
+  - lynch_beyond
+  - zeng_multidimensionality
+  - han_probing
 - time: 15:15-15:45
   category: Lightning Talks
   title: Lightning Talks 2
+  presentations:
+  - starr_focus
+  - li_decomposing
+  - brutti_processing
 - time: 15:45-16:15
   category: Break
   title: Coffee Break

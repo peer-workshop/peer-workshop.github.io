@@ -38,6 +38,45 @@ layout: default
                     <div class="row col-lg-10 {{ classes }}">
                         {% if event.title %}
                         <h5 class="fw-normal m-0 mb-2">{{ event.title }}</h5>
+                        
+                        {% comment %} Handle Lightning Talks with multiple presentations {% endcomment %}
+                        {% if event.presentations %}
+                        <div class="accordion mb-2" id="accordion-{{ forloop.index }}">
+                            {% for presentation_id in event.presentations %}
+                                {% assign presentation = presentations[presentation_id] %}
+                                <div class="mb-3">
+                                    {% if event.category == 'Keynote' %}
+                                        <h6 class="fw-normal m-0">
+                                            <strong>Keynote:</strong> {{ presentation.title }}
+                                            {% if presentation.abstract %}
+                                            <button class="btn btn-sm btn-link text-muted p-0 ms-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ presentation_id }}" aria-expanded="false" aria-controls="collapse-{{ presentation_id }}">
+                                                <small>[abstract]</small>
+                                            </button>
+                                            {% endif %}
+                                        </h6>
+                                    {% else %}
+                                        <h6 class="fw-normal m-0">{{ presentation.title }}
+                                            {% if presentation.abstract %}
+                                            <button class="btn btn-sm btn-link text-muted p-0 ms-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ presentation_id }}" aria-expanded="false" aria-controls="collapse-{{ presentation_id }}">
+                                                <small>[abstract]</small>
+                                            </button>
+                                            {% endif %}
+                                        </h6>
+                                    {% endif %}
+                                    <p class="fw-light small m-0">
+                                    {% for author_id in presentation.authors %}{% assign author = people[author_id] %}{% if forloop.index > 1 %}, {% endif %}{% if author.website %}<a href="{{ author.website }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% if author.university %} ({{ author.university }}){% elsif author.institutions.size > 0 %} ({{ author.institutions | join: ", " }}){% endif %}{% endfor %}
+                                    </p>
+                                    {% if presentation.abstract %}
+                                    <div class="collapse mt-2" id="collapse-{{ presentation_id }}">
+                                        <div class="card card-body">
+                                            <p class="small mb-0">{{ presentation.abstract }}</p>
+                                        </div>
+                                    </div>
+                                    {% endif %}
+                                </div>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
                         {% else %}
                         {% assign presentation = presentations[event.presentation] %}
                         
@@ -45,45 +84,62 @@ layout: default
                         {% if presentation.presenter %}
                             {% comment %} 2024 format {% endcomment %}
                             {% assign presenter = people[presentation.presenter] %}
-                            <h5 class="fw-normal m-0 mb-2">
-                                {{ presentation.title }}
-                                {% if presentation.abstract %}
-                                <button type="button" class="btn btn-sm btn-outline-secondary ms-2" data-bs-toggle="modal" data-bs-target="#modal-{{ event.presentation }}">
-                                    Abstract
-                                </button>
-                                {% endif %}
-                            </h5>
-                            {% if presenter.website %}
-                            <p class="fw-light m-0"><a href="{{ presenter.website }}">{{ presenter.name }}</a> ({{ presenter.university }})</p>
+                            {% if event.category == 'Keynote' %}
+                                <h5 class="fw-normal m-0 mb-2">
+                                    <strong>Keynote:</strong> {{ presentation.title }}
+                                    {% if presentation.abstract %}
+                                    <button class="btn btn-sm btn-link text-muted p-0 ms-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ event.presentation }}" aria-expanded="false" aria-controls="collapse-{{ event.presentation }}">
+                                        <small>[abstract]</small>
+                                    </button>
+                                    {% endif %}
+                                </h5>
                             {% else %}
-                            <p class="fw-light m-0">{{ presenter.name }} ({{ presenter.university }})</p>
+                                <h5 class="fw-normal m-0 mb-2">
+                                    {{ presentation.title }}
+                                    {% if presentation.abstract %}
+                                    <button class="btn btn-sm btn-link text-muted p-0 ms-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ event.presentation }}" aria-expanded="false" aria-controls="collapse-{{ event.presentation }}">
+                                        <small>[abstract]</small>
+                                    </button>
+                                    {% endif %}
+                                </h5>
+                            {% endif %}
+                            {% if presenter.website %}
+                            <p class="fw-light small m-0"><a href="{{ presenter.website }}">{{ presenter.name }}</a> ({{ presenter.university }})</p>
+                            {% else %}
+                            <p class="fw-light small m-0">{{ presenter.name }} ({{ presenter.university }})</p>
                             {% endif %}
                         {% else %}
                             {% comment %} 2025 format {% endcomment %}
-                            <h5 class="fw-normal m-0 mb-2">
-                                {{ presentation.title }}
-                                {% if presentation.abstract %}
-                                <button type="button" class="btn btn-sm btn-outline-secondary ms-2" data-bs-toggle="modal" data-bs-target="#modal-{{ event.presentation }}">
-                                    Abstract
-                                </button>
-                                {% endif %}
-                            </h5>
-                            <p class="fw-light m-0">
-                            {% for author_id in presentation.authors %}
-                                {% assign author = people[author_id] %}
-                                {% if forloop.index > 1 %}, {% endif %}
-                                {% if author.website %}
-                                <a href="{{ author.website }}">{{ author.name }}</a>
-                                {% else %}
-                                {{ author.name }}
-                                {% endif %}
-                                {% if author.university %}
-                                    ({{ author.university }})
-                                {% elsif author.institutions.size > 0 %}
-                                    ({{ author.institutions | join: ", " }})
-                                {% endif %}
-                            {% endfor %}
+                            {% if event.category == 'Keynote' %}
+                                <h5 class="fw-normal m-0 mb-2">
+                                    <strong>Keynote:</strong> {{ presentation.title }}
+                                    {% if presentation.abstract %}
+                                    <button class="btn btn-sm btn-link text-muted p-0 ms-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ event.presentation }}" aria-expanded="false" aria-controls="collapse-{{ event.presentation }}">
+                                        <small>[abstract]</small>
+                                    </button>
+                                    {% endif %}
+                                </h5>
+                            {% else %}
+                                <h5 class="fw-normal m-0 mb-2">
+                                    {{ presentation.title }}
+                                    {% if presentation.abstract %}
+                                    <button class="btn btn-sm btn-link text-muted p-0 ms-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ event.presentation }}" aria-expanded="false" aria-controls="collapse-{{ event.presentation }}">
+                                        <small>[abstract]</small>
+                                    </button>
+                                    {% endif %}
+                                </h5>
+                            {% endif %}
+                            <p class="fw-light small m-0">
+                            {% for author_id in presentation.authors %}{% assign author = people[author_id] %}{% if forloop.index > 1 %}, {% endif %}{% if author.website %}<a href="{{ author.website }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% if author.university %} ({{ author.university }}){% elsif author.institutions.size > 0 %} ({{ author.institutions | join: ", " }}){% endif %}{% endfor %}
                             </p>
+                        {% endif %}
+
+                        {% if presentation.abstract %}
+                        <div class="collapse mt-2 mb-2" id="collapse-{{ event.presentation }}">
+                            <div class="card card-body">
+                                {{ presentation.abstract }}
+                            </div>
+                        </div>
                         {% endif %}
                         {% endif %}
                         <p class="fw-light m-0">
@@ -130,63 +186,6 @@ layout: default
             </div>
             {% endif %}
         </div>
-        
-        <!-- Modal Definitions -->
-        {% for event in schedule %}
-            {% if event.presentation %}
-                {% assign presentation = presentations[event.presentation] %}
-                {% if presentation.abstract %}
-                <div class="modal fade" id="modal-{{ event.presentation }}" tabindex="-1" aria-labelledby="modal-{{ event.presentation }}-label" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header d-block">
-                                <div class="d-flex justify-content-between align-items-start">
-                                    <h5 class="modal-title" id="modal-{{ event.presentation }}-label">{{ presentation.title }}</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <p class="mb-0 text-muted">
-                                {% if presentation.presenter %}
-                                    {% comment %} 2024 format {% endcomment %}
-                                    {% assign presenter = people[presentation.presenter] %}
-                                    {% if presenter.website %}
-                                    <a href="{{ presenter.website }}">{{ presenter.name }}</a>
-                                    {% else %}
-                                    {{ presenter.name }}
-                                    {% endif %}
-                                    {% if presenter.university %}
-                                        ({{ presenter.university }})
-                                    {% elsif presenter.institutions.size > 0 %}
-                                        ({{ presenter.institutions | join: ", " }})
-                                    {% endif %}
-                                {% else %}
-                                    {% comment %} 2025 format {% endcomment %}
-                                    {% for author_id in presentation.authors %}
-                                        {% assign author = people[author_id] %}
-                                        {% if forloop.index > 1 %}, {% endif %}
-                                        {% if author.website %}
-                                        <a href="{{ author.website }}">{{ author.name }}</a>
-                                        {% else %}
-                                        {{ author.name }}
-                                        {% endif %}
-                                        {% if author.university %}
-                                            ({{ author.university }})
-                                        {% elsif author.institutions.size > 0 %}
-                                            ({{ author.institutions | join: ", " }})
-                                        {% endif %}
-                                    {% endfor %}
-                                {% endif %}
-                                </p>
-                            </div>
-                            <div class="modal-body">
-                                <!-- Abstract -->
-                                <p>{{ presentation.abstract }}</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {% endif %}
-            {% endif %}
-        {% endfor %}
         {% endif %}
     </div>
 </main>
