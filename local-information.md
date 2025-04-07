@@ -1,7 +1,7 @@
 ---
 layout: local-information
 title: Local Information
-description: Map of conference venue
+description: Local information for the 4th Workshop on Processing and Evaluating Event Representations (PEER2025)
 navorder: 3
 ---
 
