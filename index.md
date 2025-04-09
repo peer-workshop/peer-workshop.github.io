@@ -13,7 +13,6 @@ Special focus is placed on meaning representations that take the concept of an e
 
 <hr class="my-4">
 
-The 4th Workshop on Processing and Evaluating Event Representations (PEER2025) will be held at the University of Rochester on April 18, 2025, with invited talks by [Ellen Lau](https://ellenlau.net/) (University of Maryland, College Park) and [Alexis Wellwood](https://www.semantics.land/) (University of Southern California). 
+The 4th Workshop on Processing and Evaluating Event Representations (PEER2025) will be held at the University of Rochester on April 18, 2025, with invited talks by [Ellen Lau](https://ellenlau.net/) (University of Maryland, College Park) and [Alexis Wellwood](https://www.semantics.land/) (University of Southern California). If you plan to attend in person, we ask that you please register [here](https://docs.google.com/forms/d/e/1FAIpQLSdAciWiaz2t8Zp-O9F2pXpMwgb1sSKWnVaKZpalPngqyqWIlA/viewform?usp=dialog).
 
-
-You can find the call for abstracts as well as the programs for previous iterations of PEER at the links below.
+The program for PEER 2025 (along with all previous PEERs) can be found below.
