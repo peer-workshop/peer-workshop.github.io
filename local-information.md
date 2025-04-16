@@ -41,7 +41,7 @@ If you are considering a hotel outside of these fours, we recommend consulting t
 
 ## Parking
 
-On-campus parking in the [Library Lot](https://www.google.com/maps/place/Library+Lot,+Rochester,+NY+14611/) has been reserved for registered participants who plan to drive to campus. This lot requires an access code that will be provided to registered participants by email prior to the start of the conference. 
+On-campus parking in the [Intercampus Drive Lot](https://www.google.com/maps/place/Library+Lot,+Rochester,+NY+14611/) has been reserved for attendees who indicated on the registration form that they needed a parking pass. If you requested parking on the registration form, you can visit the information booth on Wilson Blvd. to obtain a parking pass. Just let the attendant know that you are here for the workshop. 
 
 ## Food and Drink
 
